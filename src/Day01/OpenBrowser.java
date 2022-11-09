@@ -2,6 +2,7 @@ package Day01;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class OpenBrowser {
     public static void main(String[] args) {
@@ -23,6 +24,20 @@ public class OpenBrowser {
 
       // driver.quit();
         driver.close();
+
+        System.out.println(" ==========================================");
+        WebDriver driver2 = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+        driver2.get("https://amazon.com");
+
+
+        String title2 = driver2.getTitle();
+        System.out.println("Title = " + title2);
+
+        String currentUrl = driver2.getCurrentUrl();
+        System.out.println("CurrentUrl = " + currentUrl);
+
+        driver2.quit();
 
 
     }

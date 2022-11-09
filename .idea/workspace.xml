@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BrowserTest/ChromeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BrowserTest/FireFoxBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BrowserTest/ParentBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BrowserTest/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +35,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/dilno/JavaCourse/JavaProjects/chromedriver_win32",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="RecentsManager">
