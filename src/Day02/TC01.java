@@ -26,7 +26,7 @@ public class TC01 {
 
         // verify the title is correct(as ecpected). Verification before/withougt TestNG or JUnit
 
-        String expectedTitle ="Amazon.com. Spend less. Smile more!!!";
+        String expectedTitle ="Amazon.com. Spend less. Smile more.";
         if(title.equals(expectedTitle)){
             System.out.println("Test Passed. The title is correct");
         }else{
