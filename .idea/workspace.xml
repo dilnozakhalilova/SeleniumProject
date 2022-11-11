@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="" />
+    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Day02/TC02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +50,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TC01">
+  <component name="RunManager" selected="Application.Day3._00_Recap">
     <configuration name="TC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day02.TC01" />
       <module name="SeleniumProject" />
@@ -62,7 +65,7 @@
       </method>
     </configuration>
     <configuration name="_00_Recap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02._00_Recap" />
+      <option name="MAIN_CLASS_NAME" value="Day3._00_Recap" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day3._00_Recap" />
         <item itemvalue="Application.TC01" />
         <item itemvalue="Application._03_OpenNewWindow" />
         <item itemvalue="Application._02_OpenNewTabCommand" />
         <item itemvalue="Application._01_NavigationsCommands" />
-        <item itemvalue="Application._00_Recap" />
       </list>
     </recent_temporary>
   </component>
