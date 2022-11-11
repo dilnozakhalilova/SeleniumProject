@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day02/TC02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/_00_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day02/TC02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day3._00_Recap">
+  <component name="RunManager" selected="Application.TC02">
     <configuration name="TC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day02.TC01" />
       <module name="SeleniumProject" />
@@ -64,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_00_Recap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3._00_Recap" />
+    <configuration name="TC02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day02.TC02" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_NavigationsCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02._01_NavigationsCommands" />
+    <configuration name="_00_Recap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3._00_Recap" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TC02" />
         <item itemvalue="Application.Day3._00_Recap" />
         <item itemvalue="Application.TC01" />
         <item itemvalue="Application._03_OpenNewWindow" />
         <item itemvalue="Application._02_OpenNewTabCommand" />
-        <item itemvalue="Application._01_NavigationsCommands" />
       </list>
     </recent_temporary>
   </component>
