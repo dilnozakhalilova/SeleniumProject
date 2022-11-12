@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day4/WebElementFacebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day4/FormSubmission.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +50,13 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebElementFacebook">
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3.Practice" />
+  <component name="RunManager" selected="Application.FormSubmission">
+    <configuration name="FormSubmission" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day4.FormSubmission" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day3.*" />
+          <option name="PATTERN" value="Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02.TC01" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.Practice" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day02.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FormSubmission" />
         <item itemvalue="Application.WebElementFacebook" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.TC02" />
         <item itemvalue="Application.Day3._00_Recap" />
-        <item itemvalue="Application.TC01" />
       </list>
     </recent_temporary>
   </component>
