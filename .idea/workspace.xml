@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day5Mentoring/CSS_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day5Mentoring/_01_Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_18_2022Class/XPathPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.XPath">
+  <component name="RunManager" selected="Application.RadioDemo">
     <configuration name="FormSubmission" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day4.FormSubmission" />
       <module name="SeleniumProject" />
@@ -67,25 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3.Practice" />
+    <configuration name="RadioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day5.RadioDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebElementFacebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day4.WebElementFacebook" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day4.*" />
+          <option name="PATTERN" value="Day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +82,19 @@
     </configuration>
     <configuration name="XPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_11_18_2022Class.XPath" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_11_18_2022Class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XPathPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_18_2022Class.XPathPractice" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadioDemo" />
         <item itemvalue="Application.XPath" />
+        <item itemvalue="Application.XPathPractice" />
         <item itemvalue="Application._01_Lesson" />
         <item itemvalue="Application.FormSubmission" />
-        <item itemvalue="Application.WebElementFacebook" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -150,17 +150,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_11_18_2022Class/XPath.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumProject$WebElementFacebook.ic" NAME="WebElementFacebook Coverage Results" MODIFIED="1668218172987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

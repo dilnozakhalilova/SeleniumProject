@@ -15,7 +15,8 @@ public class XPath {
             driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("Admin");
             driver.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("Exelent2022Sdet!");
             Thread.sleep(2000);
-            driver.findElement(By.xpath("//input[@value='LOGIN']")).click();
+           // driver.findElement(By.xpath("//input[@value='LOGIN']")).click();
+            driver.findElement(By.xpath("//input[@value='LOGIN']")).submit();
             Thread.sleep(2000);
             driver.findElement(By.xpath("//a[contains(text(),'Welcome')]")).click();
 
