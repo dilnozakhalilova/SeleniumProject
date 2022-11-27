@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_11_18_2022Class/XPathPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecapFromBegining/SeleniumDay1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecapFromBegining/xPathDemo/xPathDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RadioDemo">
-    <configuration name="FormSubmission" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day4.FormSubmission" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.xPathDemo">
     <configuration name="RadioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day5.RadioDemo" />
       <module name="SeleniumProject" />
@@ -119,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="xPathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecapFromBegining.xPathDemo.xPathDemo" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecapFromBegining.xPathDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.xPathDemo" />
         <item itemvalue="Application.RadioDemo" />
         <item itemvalue="Application.XPath" />
         <item itemvalue="Application.XPathPractice" />
         <item itemvalue="Application._01_Lesson" />
-        <item itemvalue="Application.FormSubmission" />
       </list>
     </recent_temporary>
   </component>

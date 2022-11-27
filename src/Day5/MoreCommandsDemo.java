@@ -66,9 +66,6 @@ public class MoreCommandsDemo {
 
 
 
-
-
-
         Thread.sleep(2000);
         driver.close();
 
