@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RecapFromBegining/SeleniumDay1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecapFromBegining/xPathDemo/xPathDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class6/RadioButton_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class6/_03_RadioDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class6/_04_RadioDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class6/_05_JavaList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.xPathDemo">
+  <component name="RunManager" selected="Application._03_RadioDemo">
     <configuration name="RadioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day5.RadioDemo" />
       <module name="SeleniumProject" />
@@ -67,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_11_18_2022Class.XPath" />
+    <configuration name="_03_RadioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class6._03_RadioDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_11_18_2022Class.*" />
+          <option name="PATTERN" value="Class6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XPathPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_11_18_2022Class.XPathPractice" />
+    <configuration name="_04_RadioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class6._04_RadioDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_11_18_2022Class.*" />
+          <option name="PATTERN" value="Class6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_Lesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day5Mentoring._01_Lesson" />
+    <configuration name="_11_28_2022" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class5._11_28_2022" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day5Mentoring.*" />
+          <option name="PATTERN" value="Class5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._03_RadioDemo" />
+        <item itemvalue="Application._04_RadioDemo" />
+        <item itemvalue="Application._11_28_2022" />
         <item itemvalue="Application.xPathDemo" />
         <item itemvalue="Application.RadioDemo" />
-        <item itemvalue="Application.XPath" />
-        <item itemvalue="Application.XPathPractice" />
-        <item itemvalue="Application._01_Lesson" />
       </list>
     </recent_temporary>
   </component>
