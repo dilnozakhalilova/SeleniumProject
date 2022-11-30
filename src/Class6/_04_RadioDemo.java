@@ -1,5 +1,14 @@
 package Class6;
 
+/*
+TC 4.1: Selecting Colors:
+Open the Chrome browser
+Go to provided “URL” page where checkboxes are present
+Loop through the list of elements and find Yellow & Orange colors
+Select both and print their names to the console
+Close the browser
+ */
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,6 +26,17 @@ public class _04_RadioDemo {
 
         //We are retreaving the list of web elements
         List<WebElement> browsers = driver.findElements(By.xpath("//input[@name='browser']"));
+        List<WebElement>colors = driver.findElements(By.xpath("//input[@name='color']"));
+
+        for (WebElement color : colors) {
+            String value = color.getAttribute("value");
+            if (value.equals("orange") || value.equals("yellow")) {
+                color.click();
+                System.out.println("Yellow or Orange are found and selected");
+
+            }
+        }
+
 
         // Get the size of the list.
         int browserCount = browsers.size();
@@ -59,9 +79,8 @@ public class _04_RadioDemo {
         }
 
 
-
         Thread.sleep(2000);
-      //  driver.close();
+         driver.close();
 
     }
 }
