@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class8/IteratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class8/IteratorIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class8/CarTestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class8/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class8/CarsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class8/IteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class8/_02_IteratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class8/IteratorIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class8/_01_IteratorIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +55,13 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorIntro">
-    <configuration name="BlankEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class7.BlankEmpty" />
+  <component name="RunManager" selected="Application.CarTestArrayList">
+    <configuration name="CarTestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class8.CarTestArrayList" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class7.*" />
+          <option name="PATTERN" value="Class8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class7.FindAllLinks" />
+    <configuration name="CarsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class8.CarsTest" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class7.*" />
+          <option name="PATTERN" value="Class8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_RadioButtonAndCheckboxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class6.TC_RadioButtonAndCheckboxes" />
+    <configuration name="_02_IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class8._02_IteratorDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class6.*" />
+          <option name="PATTERN" value="Class8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarTestArrayList" />
+        <item itemvalue="Application.CarsTest" />
+        <item itemvalue="Application._02_IteratorDemo" />
         <item itemvalue="Application.IteratorIntro" />
         <item itemvalue="Application.FindspecificLink" />
-        <item itemvalue="Application.BlankEmpty" />
-        <item itemvalue="Application.FindAllLinks" />
-        <item itemvalue="Application.TC_RadioButtonAndCheckboxes" />
       </list>
     </recent_temporary>
   </component>

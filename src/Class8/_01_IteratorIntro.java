@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class IteratorIntro {
+public class _01_IteratorIntro {
 
     public static void main(String[] args) {
         List<Double> doubleList = new ArrayList<>();// generic ArrayList
