@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class6/TC_RadioButtonAndCheckboxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class7/BlankEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class7/FindAllLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class7/FindspecificLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class8/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class8/IteratorIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindspecificLink">
+  <component name="RunManager" selected="Application.IteratorIntro">
     <configuration name="BlankEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class7.BlankEmpty" />
       <module name="SeleniumProject" />
@@ -94,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IteratorIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class8.IteratorIntro" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC_RadioButtonAndCheckboxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class6.TC_RadioButtonAndCheckboxes" />
       <module name="SeleniumProject" />
@@ -107,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04_RadioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class6._04_RadioDemo" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorIntro" />
         <item itemvalue="Application.FindspecificLink" />
         <item itemvalue="Application.BlankEmpty" />
         <item itemvalue="Application.FindAllLinks" />
         <item itemvalue="Application.TC_RadioButtonAndCheckboxes" />
-        <item itemvalue="Application._04_RadioDemo" />
       </list>
     </recent_temporary>
   </component>
