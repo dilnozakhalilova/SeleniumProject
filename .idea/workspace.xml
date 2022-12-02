@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class9/_01_ConnectWithPropertiesFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ConfigsReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ConfigsWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigsReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigsReader">
+  <component name="RunManager" selected="Application.ConfigsWriter">
     <configuration name="CarTestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class8.CarTestArrayList" />
       <module name="SeleniumProject" />
@@ -93,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigsWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.ConfigsWriter" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_01_ConnectWithPropertiesFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class9._01_ConnectWithPropertiesFile" />
       <module name="SeleniumProject" />
@@ -106,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class8._02_IteratorDemo" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConfigsWriter" />
         <item itemvalue="Application.ConfigsReader" />
         <item itemvalue="Application._01_ConnectWithPropertiesFile" />
         <item itemvalue="Application.CarTestArrayList" />
         <item itemvalue="Application.CarsTest" />
-        <item itemvalue="Application._02_IteratorDemo" />
       </list>
     </recent_temporary>
   </component>
