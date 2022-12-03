@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class9/_02_LoginToExelenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class10/_01_ExcelIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class10/_01_ExcelIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +35,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dilno/JavaCourse/JavaProjects/chromedriver_win32",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/dilno/JavaCourse/JavaProjects/SeleniumProject/drivers/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.language"
