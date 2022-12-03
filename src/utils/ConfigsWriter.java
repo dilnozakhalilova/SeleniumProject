@@ -6,6 +6,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 // NOTE: THIS CLASS WRITES TO PROPERTIES FILE. ALTERNATIVE NAME COULD BE " WriteToProperties"
+
+//fixme:
+//todo:
 public class ConfigsWriter {
     public static void main(String[] args) throws IOException {
         String filePath = System.getProperty("user.dir")+"/configs/configuration.properties";
