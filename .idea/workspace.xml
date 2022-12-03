@@ -3,7 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class10/_01_ExcelIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class10/_01_ExcelIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class6/RadioButton_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/RadioButton_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class6/TC_RadioButtonAndCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/TC_RadioButtonAndCheckboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class6/_03_RadioDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/_03_RadioDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class6/_04_RadioDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/_04_RadioDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class6/_05_JavaList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/_05_JavaList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class1/OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/TC01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/TC02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/_00_Recap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_00_Recap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/_01_NavigationsCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_01_NavigationsCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/_02_OpenNewTabCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_02_OpenNewTabCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/_03_OpenNewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_03_OpenNewWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day4/FormSubmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class4/FormSubmission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day4/WebElementFacebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class4/WebElementFacebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class5/MoreCommandsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
