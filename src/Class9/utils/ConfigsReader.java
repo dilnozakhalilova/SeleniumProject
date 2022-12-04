@@ -1,7 +1,6 @@
-package utils;
+package Class9.utils;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 //NOTE: this class reads from the properties file.Alternative  class name to this class could be "ReadFromProperties"

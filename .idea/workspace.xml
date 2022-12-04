@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class6/RadioButton_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/RadioButton_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class6/TC_RadioButtonAndCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/TC_RadioButtonAndCheckboxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class6/_03_RadioDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/_03_RadioDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class6/_04_RadioDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/_04_RadioDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class6/_05_JavaList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/_05_JavaList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class1/OpenBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/TC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/TC02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/_00_Recap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_00_Recap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/_01_NavigationsCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_01_NavigationsCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/_02_OpenNewTabCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_02_OpenNewTabCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/_03_OpenNewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class2/_03_OpenNewWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day4/FormSubmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class4/FormSubmission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day4/WebElementFacebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class4/WebElementFacebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/MoreCommandsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class5/MoreCommandsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class9/utils/ConfigsReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class9/utils/ConfigsWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +36,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dilno/JavaCourse/JavaProjects/SeleniumProject/drivers/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/Dilnoza/JavaCourse/JavaProjects/SeleniumProject",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.language"
@@ -69,26 +55,13 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._02_LoginToExelenter">
-    <configuration name="CarTestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class8.CarTestArrayList" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WebElementFacebook">
     <configuration name="ConfigsReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.ConfigsReader" />
+      <option name="MAIN_CLASS_NAME" value="Class9.utils.ConfigsReader" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="Class9.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +70,24 @@
       </method>
     </configuration>
     <configuration name="ConfigsWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.ConfigsWriter" />
+      <option name="MAIN_CLASS_NAME" value="Class9.utils.ConfigsWriter" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="Class9.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebElementFacebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class4.WebElementFacebook" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebElementFacebook" />
         <item itemvalue="Application._02_LoginToExelenter" />
         <item itemvalue="Application.ConfigsWriter" />
         <item itemvalue="Application.ConfigsReader" />
         <item itemvalue="Application._01_ConnectWithPropertiesFile" />
-        <item itemvalue="Application.CarTestArrayList" />
       </list>
     </recent_temporary>
   </component>
