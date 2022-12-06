@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class9/utils/ConfigsReader_New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class9/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class9/utils/ConfigsReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class9/utils/ConfigsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class9/_02_LoginToExelenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class9/_02_LoginToExelenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Dilnoza/JavaCourse/JavaProjects/SeleniumProject",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.language"
@@ -51,13 +56,14 @@
       <recent name="C:\Users\dilno\JavaCourse\JavaProjects\SeleniumProject\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class9.utils" />
       <recent name="Day5Mentoring" />
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebElementFacebook">
-    <configuration name="ConfigsReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class9.utils.ConfigsReader" />
+  <component name="RunManager" selected="Application.XPath">
+    <configuration name="ConfigsWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class9.utils.ConfigsWriter" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigsWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class9.utils.ConfigsWriter" />
+    <configuration name="Constants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class9.utils.Constants" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_ConnectWithPropertiesFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class9._01_ConnectWithPropertiesFile" />
+    <configuration name="XPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_18_2022Class.XPath" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class9.*" />
+          <option name="PATTERN" value="_11_18_2022Class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebElementFacebook" />
+        <item itemvalue="Application.XPath" />
+        <item itemvalue="Application.Constants" />
         <item itemvalue="Application._02_LoginToExelenter" />
+        <item itemvalue="Application.WebElementFacebook" />
         <item itemvalue="Application.ConfigsWriter" />
-        <item itemvalue="Application.ConfigsReader" />
-        <item itemvalue="Application._01_ConnectWithPropertiesFile" />
       </list>
     </recent_temporary>
   </component>

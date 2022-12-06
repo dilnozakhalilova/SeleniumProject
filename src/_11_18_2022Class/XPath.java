@@ -1,14 +1,15 @@
 package _11_18_2022Class;
 
+import Class9.utils.Constants;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class XPath {
+public class XPath  {
 
         private static String url = "https://exelentersdet.com/";
         public static void main(String[] args) throws InterruptedException {
-            System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe"); // window users add '.exe' at the end
+            System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH); // window users add '.exe' at the end
             WebDriver driver = new ChromeDriver();
             driver.get(url);
 
