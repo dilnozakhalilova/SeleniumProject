@@ -1,8 +1,6 @@
 package utils;
 
 // NOTE: THIS CLASS IS USED TO LAUNCH AND QUITE THE BROWSER
-
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -11,7 +9,7 @@ public class BaseClass {
     public static WebDriver driver;
 
     public static void setUp() {
-        ConfigsR
+
         ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
         switch (ConfigsReader.getProperties("browser").toLowerCase()) {
             case "chrome": {

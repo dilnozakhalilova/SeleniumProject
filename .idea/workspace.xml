@@ -5,45 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class1/ChromeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class1/FirefoxBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class1/ParentBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class1/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class1/howWebDriverWorks/ChromeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class1/howWebDriverWorks/FirefoxBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class1/howWebDriverWorks/ParentBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class1/howWebDriverWorks/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class10/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class6/HW_Checkboxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class6/TC_RadioAndCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class6/_01_GetAttributeMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class6/_02_RadioDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ConfigsReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrowserTest/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class1/BrowserTest/ChromeBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrowserTest/FireFoxBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class1/BrowserTest/FireFoxBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrowserTest/ParentBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class1/BrowserTest/ParentBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrowserTest/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class1/BrowserTest/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class3/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class6/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class3/RadioButton_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class6/RadioButton_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class3/TC_RadioButtonAndCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class6/TC_RadioButtonAndCheckboxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class3/_03_RadioDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class6/_03_RadioDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class3/_04_RadioDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class6/_04_RadioDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class3/_05_JavaList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class6/_05_JavaList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class4/FormSubmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/TCO3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class4/WebElementFacebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class3/_01_WebElementFacebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class8/CarTestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class8/_05_CarTestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class8/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class8/_03_Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class8/CarsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class8/_04_CarsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5Mentoring/CSS_Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5Mentoring/_01_Lesson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecapFromBegining/SeleniumDay1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecapFromBegining/xPathDemo/xPathDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_18_2022Class/XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class4/XPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_18_2022Class/XPathPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class4/XPathPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class10/TestClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsReader_New.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigsReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +27,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Class10/TestClass.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/utils/ConfigsReader_Old.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/utils/ConfigsWriter.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/utils/Constants.java" root0="SKIP_INSPECTION" />
@@ -76,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Dilnoza/JavaCourse/JavaProjects/SeleniumProject/src/Class1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dilnoza/JavaCourse/JavaProjects/SeleniumProject/src/Class1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Class9" />
@@ -106,7 +70,7 @@
       <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._01_ExcelIntro">
     <configuration name="Constants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.Constants" />
       <module name="SeleniumProject" />

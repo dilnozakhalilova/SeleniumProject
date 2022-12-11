@@ -1,5 +1,4 @@
 package utils;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -8,7 +7,6 @@ import java.util.Properties;
 
 public class ConfigsReader {
    static Properties properties;
-
     /**
      * This method will locate and prepare (load) the Properties file
      * @param filePath specify file path/location here
@@ -25,8 +23,6 @@ public class ConfigsReader {
             e.printStackTrace();
         }
     }
-
-
     /**
      * This method will return value of the specified key from the properties file
      * @param key accepted as a String
@@ -35,7 +31,6 @@ public class ConfigsReader {
     public static String getProperties(String key) {
         return properties.getProperty(key);
     }
-
 
 
 
