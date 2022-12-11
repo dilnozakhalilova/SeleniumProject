@@ -1,4 +1,4 @@
-package Class9.utils;
+package utils;
 
 public class Constants {
 public static final String CHROME_DRIVER_PATH = System.getProperty("user.dir")+"/drivers/chromedriver.exe";

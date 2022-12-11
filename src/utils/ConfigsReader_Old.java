@@ -1,10 +1,10 @@
-package Class9.utils;
+package utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 //NOTE: this class reads from the properties file.Alternative  class name to this class could be "ReadFromProperties"
-public class ConfigsReader {
+public class ConfigsReader_Old {
     public static void main(String[] args) throws IOException {
         String filePath = System.getProperty("user.dir") + "/configs/configuration.properties";
         FileInputStream fis = new FileInputStream(filePath);

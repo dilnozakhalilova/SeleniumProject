@@ -1,4 +1,4 @@
-package Class9.utils;
+package utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -37,5 +37,6 @@ public class ConfigsReader_New {
        return properties.getProperty(key);
 
     }
+
 
 }

@@ -1,4 +1,4 @@
-package Class9.utils;
+package utils;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
