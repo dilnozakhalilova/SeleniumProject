@@ -1,4 +1,4 @@
-package Class3;
+package Class6;
 
 import java.util.ArrayList;
 import java.util.List;

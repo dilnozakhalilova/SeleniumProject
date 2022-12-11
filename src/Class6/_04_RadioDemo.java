@@ -1,4 +1,4 @@
-package Class3;
+package Class6;
 
 /*
 TC 4.1: Selecting Colors:

@@ -1,4 +1,4 @@
-package Class3;
+package Class6;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;

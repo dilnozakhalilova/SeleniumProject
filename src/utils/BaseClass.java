@@ -6,23 +6,27 @@ package utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 public class BaseClass {
     public static WebDriver driver;
+
     public static void setUp() {
-        ConfigsReader_New.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
-        switch (ConfigsReader_New.getProperties("browser").toLowerCase()) {
-            case "chrome" -> {
+        ConfigsR
+        ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
+        switch (ConfigsReader.getProperties("browser").toLowerCase()) {
+            case "chrome": {
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();
             }
-            case "firefox" -> {
+            case "firefox": {
                 System.setProperty("webdriver.gecko.driver", Constants.GECKO_DRIVER_PATH);
                 driver = new FirefoxDriver();
             }
-            default -> throw new RuntimeException("Browser is not supported");
+            default:
+                throw new RuntimeException("Browser is not supported");
         }
 
-        driver.get(ConfigsReader_New.getProperties("url"));
+        driver.get(ConfigsReader.getProperties("url"));
 
     }
 

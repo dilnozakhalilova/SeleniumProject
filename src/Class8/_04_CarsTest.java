@@ -4,7 +4,7 @@ package Class8;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class CarsTest {
+public class _04_CarsTest {
     public static void main(String[] args) {
         //Regular way of storing objects in an array
         Cars[] carsArray =

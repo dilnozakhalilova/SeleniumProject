@@ -1,4 +1,4 @@
-package BrowserTest;
+package Class1.BrowserTest;
 
 public interface ParentBrowser {
     void goTo(String URL);

@@ -1,13 +1,14 @@
-package BrowserTest;
+package Class1.BrowserTest;
 
-public class FireFoxBrowser implements ParentBrowser {
-    public FireFoxBrowser() {
+public class ChromeBrowser implements ParentBrowser {
+    public ChromeBrowser() {
+
         System.out.println("Launching ...");
     }
 
     @Override
     public void goTo(String URL) {
-        System.out.println("Navigaring "+URL);
+        System.out.println("Navigating: " + URL);
     }
 
     @Override
@@ -17,11 +18,13 @@ public class FireFoxBrowser implements ParentBrowser {
 
     @Override
     public void getTitle() {
-        System.out.println("Getting the Title");
+        System.out.println("Getting the Title ");
+
     }
 
     @Override
     public void close() {
         System.out.println("Closing the Browser");
+
     }
 }
