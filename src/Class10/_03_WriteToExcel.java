@@ -25,6 +25,11 @@ public class _03_WriteToExcel {
         // Task: Write your own name to this excel file (Sheet1) on the very last row with your title SDET
         sheet1.getRow(4).createCell(0).setCellValue("Dilnoza");
         sheet1.getRow(4).createCell(4).setCellValue("SDET");
+        sheet1.getRow(4).createCell(5).setCellValue(130000);
+
+
+        // Create a new sheet within your workbook
+        Sheet sheet5 = workbook.createSheet("Sheet5");// overwriting will trow illegalArgument exception
 
         FileOutputStream fos = new FileOutputStream(filePath);
         workbook.write(fos);
