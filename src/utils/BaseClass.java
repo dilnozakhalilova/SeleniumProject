@@ -14,18 +14,18 @@ public class BaseClass {
     public static void setUp() {
     ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
         switch (getProperties("browser").toLowerCase()) {
-            case "chrome": {
+            case "chrome" ->{
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
-                driver = new ChromeDriver();
-            }
-            case "firefox": {
+                driver = new ChromeDriver();}
+
+            case "firefox"-> {
                 System.setProperty("webdriver.gecko.driver", Constants.GECKO_DRIVER_PATH);
                 driver = new FirefoxDriver();
             }
-
+            default -> throw new RuntimeException("Browser is not supported");
         }
 
-  driver.get("https://amazon.com");
+        driver.get(ConfigsReader.getProperties("url"));
 
 
     }
