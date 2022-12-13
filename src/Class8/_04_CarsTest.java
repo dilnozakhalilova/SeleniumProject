@@ -7,13 +7,13 @@ import java.util.Iterator;
 public class _04_CarsTest {
     public static void main(String[] args) {
         //Regular way of storing objects in an array
-        Cars[] carsArray =
+        Car[] carsArray =
                 {new Toyota("Gasoline"),
                         new Honda("Gasoline"),
                         new Tesla("Electric")};
 
         System.out.println("==========Enhanced Loop==============");
-        for(Cars car : carsArray){
+        for(Car car : carsArray){
             car.fueltype();
         }
 
@@ -23,7 +23,7 @@ public class _04_CarsTest {
         }
 
         System.out.println("==========Iterator==============");
-        Iterator<Cars> iterator = Arrays.stream(carsArray).iterator();
+        Iterator<Car> iterator = Arrays.stream(carsArray).iterator();
         while(iterator.hasNext()){
             iterator.next().fueltype();
         }

@@ -15,7 +15,7 @@ public class _01_ExcelIntro {
         String filePath = "C:\\Users\\Dilnoza\\Desktop\\ExcelSeleniumSample1.xlsx";
         FileInputStream fis = new FileInputStream(filePath);
         Workbook workbook1 = new XSSFWorkbook(fis);
-        Sheet sheet = workbook1.getSheet("Лист1");
+        Sheet sheet = workbook1.getSheet("Sheet1");
         Row row = sheet.getRow(1);
         Cell cell = row.getCell(1);
         System.out.println("cell = " + cell);

@@ -4,14 +4,16 @@ package utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import static utils.ConfigsReader.*;
+
 
 public class BaseClass {
     public static WebDriver driver;
 
-    public static void setUp() {
 
-        ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
-        switch (ConfigsReader.getProperties("browser").toLowerCase()) {
+    public static void setUp() {
+    ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
+        switch (getProperties("browser").toLowerCase()) {
             case "chrome": {
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();
@@ -20,11 +22,11 @@ public class BaseClass {
                 System.setProperty("webdriver.gecko.driver", Constants.GECKO_DRIVER_PATH);
                 driver = new FirefoxDriver();
             }
-            default:
-                throw new RuntimeException("Browser is not supported");
+
         }
 
-        driver.get(ConfigsReader.getProperties("url"));
+  driver.get("https://amazon.com");
+
 
     }
 
@@ -38,5 +40,7 @@ public class BaseClass {
             driver.quit();
         }
     }
+
+
 
 }

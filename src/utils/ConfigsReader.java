@@ -6,7 +6,7 @@ import java.util.Properties;
 // NOTE: THIS CLASS LOADS FIS AND READS FROM THE PROPERTIES FILE.
 
 public class ConfigsReader {
-   static Properties properties;
+  static Properties properties;
     /**
      * This method will locate and prepare (load) the Properties file
      * @param filePath specify file path/location here
