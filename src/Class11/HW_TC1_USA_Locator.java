@@ -16,19 +16,29 @@ public class HW_TC1_USA_Locator {
         WebElement countryDD = driver.findElement(By.cssSelector("select[name='country']"));
         Select select = new Select(countryDD);
 
-        Thread.sleep(1000);
-        select.selectByVisibleText("United States of America");
-        System.out.println("select = " + select);
+//        Thread.sleep(1000);
+//        select.selectByVisibleText("United States of America");
+//        System.out.println("select = " + select);
 
 
         List<WebElement> countries= driver.findElements(By.xpath("//*[@name='country']/options"));
         for (WebElement country : countries) {
+            country.click();
             if(country.getText().equals("United States of America")){
-                System.out.println("country = " + country);
+                country.click();
+                System.out.println("country = " + country.getText());
                 break;
             }
         }
 
+        for (WebElement country : countries) {
+            country.click();
+            if(country.getText().equals("Morocco")){
+                country.click();
+                System.out.println("country = " + country.getText());
+                break;
+            }
+        }
 
 
         tearDown();
