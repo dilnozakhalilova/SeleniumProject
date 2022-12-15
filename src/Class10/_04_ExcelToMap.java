@@ -26,7 +26,7 @@ public class _04_ExcelToMap {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                System.out.print(sheet1.getRow(i).getCell(j)+"  ");
+                System.out.print(sheet1.getRow(i).getCell(j)+" ");
             }
             System.out.println();
         }
