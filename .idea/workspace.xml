@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class10/TestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigsReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class12/_01_AlertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class12/_01_AlertDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/EmployeeList.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/EmployeeList.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/configs/configuration.properties" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class10/_04_ExcelToMap.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class11/DropdownDDMMYYYY.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class11/HW_Countries.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class11/HW_TC1_USA_Locator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class11/_01_DropdownDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class11/_02_DropdownDemo2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class11/_03_Dropdown_Multiple.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class11/_04_DropdownArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Class12/_01_AlertDemo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/utils/ConfigsReader_Old.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/utils/ConfigsWriter.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/utils/Constants.java" root0="SKIP_INSPECTION" />
@@ -40,43 +50,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dilnoza/JavaCourse/JavaProjects/SeleniumProject/src/Class1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Dilnoza/JavaCourse/JavaProjects/SeleniumMentoring/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Class9" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dilnoza\JavaCourse\JavaProjects\SeleniumProject\drivers" />
       <recent name="C:\Users\Dilnoza\JavaCourse\JavaProjects\SeleniumProject\src\Class1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dilnoza\JavaCourse\JavaProjects\SeleniumProject\testData" />
       <recent name="C:\Users\dilno\JavaCourse\JavaProjects\SeleniumProject\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class11" />
       <recent name="Class6" />
       <recent name="utils" />
       <recent name="Class9.utils" />
       <recent name="Day5Mentoring" />
-      <recent name="Day02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._01_ExcelIntro">
-    <configuration name="Constants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.Constants" />
+  <component name="RunManager" selected="Application._01_AlertDemo">
+    <configuration name="DropdownDDMMYYYY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class11.DropdownDDMMYYYY" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="Class11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebElementFacebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class4.WebElementFacebook" />
+    <configuration name="DropdownDDMMYYYY_Refactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class11.DropdownDDMMYYYY_Refactor" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class6.*" />
+          <option name="PATTERN" value="Class11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_11_18_2022Class.XPath" />
+    <configuration name="DropdownDDMMYYYY_Refactor2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class11.DropdownDDMMYYYY_Refactor2" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class4.*" />
+          <option name="PATTERN" value="Class11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_ExcelIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class10._01_ExcelIntro" />
+    <configuration name="_01_AlertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class12._01_AlertDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class10.*" />
+          <option name="PATTERN" value="Class12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_LoginToExelenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class9._02_LoginToExelenter" />
+    <configuration name="_04_DropdownArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class11._04_DropdownArrayList" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class9.*" />
+          <option name="PATTERN" value="Class11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._01_ExcelIntro" />
-        <item itemvalue="Application.XPath" />
-        <item itemvalue="Application.Constants" />
-        <item itemvalue="Application._02_LoginToExelenter" />
-        <item itemvalue="Application.WebElementFacebook" />
+        <item itemvalue="Application._01_AlertDemo" />
+        <item itemvalue="Application.DropdownDDMMYYYY_Refactor2" />
+        <item itemvalue="Application.DropdownDDMMYYYY_Refactor" />
+        <item itemvalue="Application.DropdownDDMMYYYY" />
+        <item itemvalue="Application._04_DropdownArrayList" />
       </list>
     </recent_temporary>
   </component>
