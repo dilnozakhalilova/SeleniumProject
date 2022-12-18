@@ -24,7 +24,7 @@ public class ConfigsWriter {
         properties.store(fos,"Adding phone number and email adress to the propoerties file");
 
 //DO NOT REPEAT .store() more than once or it will store everything again as duplicates
-// and key-values are not welceome in a properties file.
+// and key-values are not welcome in a properties file.
 //      // properties.setProperty("email","tester@gmail.com");// will bring duplicates if wrote here
 //       properties.store(fos,"Adding email adress");
 

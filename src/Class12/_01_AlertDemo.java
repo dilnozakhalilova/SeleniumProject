@@ -11,7 +11,6 @@ public class _01_AlertDemo {
     public static void main(String[] args) throws InterruptedException {
         setUp();// switch to URL: https://selenium08.blogspot.com/2019/07/alert-test.html
 
-
         // How to handle a simple alert
         WebElement simpleAlert = driver.findElement(By.id("simple"));
         simpleAlert.click();
@@ -44,9 +43,19 @@ public class _01_AlertDemo {
         Thread.sleep(1000);                             // Add time only when needed( for visualization) optional
         promptAlert.sendKeys("Dilnoza");           // Sending text/value(typing) the input text box
         Thread.sleep(1000);
+
+
+       // driver.findElement(By.xpath("")).getText(); // will get an ecception as first you need to handle the alert
         promptAlert.accept();                               // Press "OK" button to close the Alert
 
-
+        // Let's verify out entered text
+        String expectedText= "Dilnoza";// for negative testing change only here. Add something to the end or change the text
+        String enteredText = driver.findElement(By.xpath("//div[contains(text(),'Dilnoza')]")).getText();
+        System.out.println("enteredText = " + enteredText);
+        if(enteredText.contains(expectedText))
+            System.out.println("Text is entered successfully. Test Passed");
+        else
+            System.err.println("Text is NOT entered successfully. Test Failed");
 
 
         tearDown();
