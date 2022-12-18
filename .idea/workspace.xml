@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class12/_02_ModalAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class12/_03_HW_AlertsModal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class12/_01_AlertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class12/_01_AlertDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigsWriter.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,20 +77,7 @@
       <recent name="Day5Mentoring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._03_HW_AlertsModal">
-    <configuration name="DropdownDDMMYYYY_Refactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class11.DropdownDDMMYYYY_Refactor" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._03_HW_Alerts">
     <configuration name="DropdownDDMMYYYY_Refactor2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class11.DropdownDDMMYYYY_Refactor2" />
       <module name="SeleniumProject" />
@@ -137,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_03_HW_Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class12._03_HW_Alerts" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_03_HW_AlertsModal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class12._03_HW_AlertsModal" />
       <module name="SeleniumProject" />
@@ -152,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._03_HW_Alerts" />
         <item itemvalue="Application._03_HW_AlertsModal" />
         <item itemvalue="Application._02_ModalAlert" />
         <item itemvalue="Application._01_AlertDemo" />
         <item itemvalue="Application.DropdownDDMMYYYY_Refactor2" />
-        <item itemvalue="Application.DropdownDDMMYYYY_Refactor" />
       </list>
     </recent_temporary>
   </component>
