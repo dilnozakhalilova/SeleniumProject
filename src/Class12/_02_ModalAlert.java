@@ -2,8 +2,10 @@ package Class12;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import static utils.BaseClass.*;
+
+
+//import static utils.BaseClass.*;
 //button#showSmallModal
 // //button[@class='mr-4 mt-2 btn btn-primary']
 // switchTo() will not work here because it is not a Java script type
@@ -12,7 +14,7 @@ import static utils.BaseClass.*;
 // if you cannot click and inspect the button it is java script based
 public class _02_ModalAlert {
     public static void main(String[] args) throws InterruptedException {
-        setUp();                                // Switch to url="https://demoqa.com/modal-dialogs"
+    setUp();//url=https://demoqa.com/modal-dialogs
 
         WebElement modalAlert = driver.findElement(By.id("showSmallModal"));//Finding webElement for modalAlert alert type(HTML based alert). You can click
         modalAlert.click();                     // click to launch it

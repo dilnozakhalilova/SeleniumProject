@@ -10,7 +10,6 @@ import static utils.ConfigsReader.*;
 public class BaseClass {
     public static WebDriver driver;
 
-
     public static void setUp() {
     ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
         switch (getProperties("browser").toLowerCase()) {
@@ -25,9 +24,8 @@ public class BaseClass {
             default -> throw new RuntimeException("Browser is not supported");
         }
 
-        driver.get(ConfigsReader.getProperties("url"));
-
-
+       driver.get(ConfigsReader.getProperties("url"));
+        // driver.get(url);
     }
 
     public static void tearDown() {
