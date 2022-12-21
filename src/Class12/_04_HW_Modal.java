@@ -6,8 +6,9 @@ import org.openqa.selenium.By;
 import static utils.BaseClass.*;
 
 public class _04_HW_Modal {
+    static String url = "https://www.selenium.dev/documentation/webdriver/interactions/alerts/";
     public static void main(String[] args) throws InterruptedException {
-        setUp();
+        setUp(url);
 
         System.out.println(driver.findElement(By.id("showLargeModal")).getText());
 

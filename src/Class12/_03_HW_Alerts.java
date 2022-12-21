@@ -9,7 +9,7 @@ import static utils.BaseClass.*;
 public class _03_HW_Alerts {
     public static void main(String[] args) throws InterruptedException {
 
-        setUp();//url=https://www.selenium.dev/documentation/webdriver/interactions/alerts/
+        setUp("https://www.selenium.dev/documentation/webdriver/interactions/alerts/");
 
         System.out.println("==================Simple Alert=====================");
         driver.findElement(By.linkText("See an example alert")).click();

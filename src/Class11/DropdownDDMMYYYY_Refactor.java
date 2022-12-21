@@ -9,9 +9,9 @@ import java.util.List;
 import static utils.BaseClass.*;
 
 public class DropdownDDMMYYYY_Refactor {
-
+static String url = "https://selenium08.blogspot.com/2019/11/dropdown.html";
     public static void main(String[] args) throws InterruptedException {
-    setUp();
+    setUp(url);
     findDay("20");
     findMonth(5);
     fingYear("1995");

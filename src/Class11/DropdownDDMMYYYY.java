@@ -10,7 +10,7 @@ import static utils.BaseClass.*;
 
 public class DropdownDDMMYYYY {
     public static void main(String[] args) throws InterruptedException {
-        setUp();
+        setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
         //1. Find the element for the day from the dropdown
         WebElement dayDD = driver.findElement(By.xpath("(//select[@class='day '])[1]"));
         Select selectDayDD = new Select(dayDD);

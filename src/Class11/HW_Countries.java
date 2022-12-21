@@ -12,7 +12,7 @@ import static utils.BaseClass.*;
 public class HW_Countries {
     // Task: loop through the list of countries untill "Morocco" country is found, select and exit
     public static void main(String[] args) {
-        setUp();
+        setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
 
         WebElement month = driver.findElement(By.cssSelector("select[name='Month']"));
         Select select = new Select(month);

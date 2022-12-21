@@ -9,9 +9,10 @@ import java.util.List;
 import static utils.BaseClass.*;
 
 public class DropdownDDMMYYYY_Refactor2 {
-
+    static String url = "https://selenium08.blogspot.com/2019/11/dropdown.html";
     public static void main(String[] args) throws InterruptedException {
-        setUp();
+
+        setUp(url);
 
         findDate(4,"25","1985");// <---This is called Clean coding. All distructions are hidden elsewhere
 

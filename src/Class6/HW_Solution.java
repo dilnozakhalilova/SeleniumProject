@@ -7,7 +7,7 @@ import static utils.BaseClass.*;
 
 public class HW_Solution {
     public static void main(String[] args) {
-        setUp();
+        setUp("https://selenium08.blogspot.com/2019/07/check-box-and-radio-buttons.html");
 
         driver.findElement(By.linkText("Checkboxes")).click();
 

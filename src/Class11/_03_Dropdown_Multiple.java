@@ -12,7 +12,7 @@ import static utils.BaseClass.tearDown;
 
 public class _03_Dropdown_Multiple {
     public static void main(String[] args) throws InterruptedException {
-        setUp();
+        setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
         WebElement months = driver.findElement(By.cssSelector("select[name='Month']"));
         Select select= new Select(months);
         List<WebElement> listOfMonths = select.getOptions();

@@ -14,7 +14,7 @@ import static utils.BaseClass.*;
 // if you cannot click and inspect the button it is java script based
 public class _02_ModalAlert {
     public static void main(String[] args) throws InterruptedException {
-    setUp();//url=https://demoqa.com/modal-dialogs
+    setUp("https://demoqa.com/modal-dialogs");
 
         WebElement modalAlert = driver.findElement(By.id("showSmallModal"));//Finding webElement for modalAlert alert type(HTML based alert). You can click
         modalAlert.click();                     // click to launch it

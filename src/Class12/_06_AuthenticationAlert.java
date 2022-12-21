@@ -4,7 +4,7 @@ import static utils.BaseClass.*;
 
 public class _06_AuthenticationAlert {
     public static void main(String[] args) {
-        setUp();//url=https://foo:bar@httpbin.org/basic-auth/foo/bar
+        setUp("https://foo:bar@httpbin.org/basic-auth/foo/bar");
 /**
  * 1. JS Alert Types
  * 2. Modal (HTML Based) popup types
