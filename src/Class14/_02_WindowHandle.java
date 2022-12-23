@@ -4,7 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
 import static utils.BaseClass.*;
@@ -35,8 +37,22 @@ public class _02_WindowHandle {
             //System.out.println("nextWindow = " + nextWindow); // This method doesn't care where the focus is, It will get the IDs regardless
 
             driver.switchTo().window(nextWindow);   // First we must switch to child window before we can get a title or perform an action on it
-            System.out.println(" Page " + count + "title: " + driver.getTitle());
+            String title = driver.getTitle();
+            System.out.println(" Page " + count + " title: " + title);
             count++;
+
+            // What if we want to switch focus to a specific tab or window
+            List<String> windowList = new ArrayList<>();
+            windowList.add(nextWindow);
+            if (title.contains("Store")) {
+                driver.switchTo().window(nextWindow);
+
+                System.err.println("Window is found and switched to: " + driver.getTitle());
+                System.err.println(" Unique ID: " + nextWindow);
+               // break;
+            }
+
+
         }
 
 
