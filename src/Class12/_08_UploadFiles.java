@@ -18,7 +18,7 @@ public class _08_UploadFiles {
          */
 
 
-        //   Step 1. Find the file path in your local maschine and store it in a String
+        //   Step 1. Find the file path in your local machine and store it in a String
 
         String filePath = "C:\\Users\\Dilnoza\\Desktop\\text picture.png";
 

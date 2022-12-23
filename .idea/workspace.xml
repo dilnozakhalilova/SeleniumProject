@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class12/_08_UploadFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class13/_04_NestedFrames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class14/_01_WindowHandleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class14/_02_WindowHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class12/_08_UploadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class12/_08_UploadFiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +86,13 @@
       <recent name="Class9.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._08_UploadFiles">
-    <configuration name="_01_FramesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class13._01_FramesDemo" />
+  <component name="RunManager" selected="Application._02_WindowHandle">
+    <configuration name="_01_WindowHandleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class14._01_WindowHandleDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class13.*" />
+          <option name="PATTERN" value="Class14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_FramesDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class13._02_FramesDemo2" />
+    <configuration name="_02_WindowHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class14._02_WindowHandle" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class13.*" />
+          <option name="PATTERN" value="Class14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._02_WindowHandle" />
+        <item itemvalue="Application._01_WindowHandleDemo" />
         <item itemvalue="Application._08_UploadFiles" />
         <item itemvalue="Application._04_NestedFrames" />
         <item itemvalue="Application._03_Task" />
-        <item itemvalue="Application._02_FramesDemo2" />
-        <item itemvalue="Application._01_FramesDemo" />
       </list>
     </recent_temporary>
   </component>
