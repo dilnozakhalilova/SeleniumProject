@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class14/_04_Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class14/_02_WindowHandle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class14/_02_WindowHandle2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class14/_04_Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class14/_04_Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._02_WindowHandle2">
+  <component name="RunManager" selected="Application._04_Task">
     <configuration name="_01_WindowHandleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class14._01_WindowHandleDemo" />
       <module name="SeleniumProject" />
@@ -139,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_08_UploadFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class12._08_UploadFiles" />
+    <configuration name="_04_Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class14._04_Task" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class12.*" />
+          <option name="PATTERN" value="Class14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._04_Task" />
         <item itemvalue="Application._02_WindowHandle2" />
         <item itemvalue="Application._03_WindowHandle" />
         <item itemvalue="Application._02_WindowHandle" />
         <item itemvalue="Application._01_WindowHandleDemo" />
-        <item itemvalue="Application._08_UploadFiles" />
       </list>
     </recent_temporary>
   </component>
