@@ -52,9 +52,7 @@ public class _02_WindowHandle {
                // break;
             }
 
-
         }
-
 
         tearDown();
 
