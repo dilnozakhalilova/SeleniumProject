@@ -30,17 +30,26 @@ public class _02_WindowHandle2 {
         Set<String> allWindows = driver.getWindowHandles();                       // This will store all TABS in a Set of Strings
         //allWindows.forEach(System.out::println);
 
+
+        // Ternary Operator Note: This is same as the one in lines 48-52
+        allWindows.forEach(window -> System.out.println(!window.contains(parentWindow) ? "Child: " + window : "Parent: " + parentWindow));
+
+
         //List<String> windowList = new ArrayList<>(allWindows);
+
+
+        // We are printing switchToWindow() in three different ways in below examples
+
         // switchToWindow("Store",allWindows);
         //switchToWindow(expectedTitle, allWindows);
-        switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows);
+        switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows);  // Reading from configs reader file
 
-
-        for (String window : allWindows) {
-            if (!window.contains(parentWindow)) {
-                System.out.println("This is the child window: " + driver.switchTo().window(window).getTitle());
-            }
-        }
+        // Getting all children tabs not parent
+//        for (String window : allWindows) {
+//            if (!window.contains(parentWindow)) {
+//                System.out.println("This is the child window: " + driver.switchTo().window(window).getTitle());
+//            }
+//        }
 
 
         tearDown();
