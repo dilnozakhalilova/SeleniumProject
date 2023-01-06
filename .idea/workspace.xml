@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class15/_01_WaitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class15/_03_ExplicitWaitTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class15/_01_ImplicitWaitTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/_01_ImplicitWaitTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +54,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Dilnoza/JavaCourse/JavaCourse",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dilnoza/JavaCourse/JavaCourse&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Class9" />
@@ -77,16 +79,16 @@
       <recent name="C:\Users\dilno\JavaCourse\JavaProjects\SeleniumProject\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class15" />
       <recent name="Class14" />
       <recent name="Class13" />
       <recent name="Class11" />
       <recent name="Class6" />
-      <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._01_WaitDemo">
-    <configuration name="_01_WaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class15._01_WaitDemo" />
+  <component name="RunManager" selected="Application._03_ExplicitWaitTask">
+    <configuration name="_01_ImplicitWaitTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class15._01_ImplicitWaitTask" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_WindowHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class14._02_WindowHandle" />
+    <configuration name="_01_WaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class15._01_WaitDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class14.*" />
+          <option name="PATTERN" value="Class15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_WindowHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class14._03_WindowHandle" />
+    <configuration name="_03_ExplicitWaitTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class15._03_ExplicitWaitTask" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class14.*" />
+          <option name="PATTERN" value="Class15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._03_ExplicitWaitTask" />
+        <item itemvalue="Application._01_ImplicitWaitTask" />
         <item itemvalue="Application._01_WaitDemo" />
         <item itemvalue="Application._04_Task" />
         <item itemvalue="Application._02_WindowHandle2" />
-        <item itemvalue="Application._03_WindowHandle" />
-        <item itemvalue="Application._02_WindowHandle" />
       </list>
     </recent_temporary>
   </component>
