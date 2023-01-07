@@ -22,7 +22,10 @@ public class WindowHandle_Refactor1 {
 
         Set<String> allWindows = driver.getWindowHandles();
 
-        switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows);
+        //  switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows);
+        //  switchToWindow("Amazon", allWindows);
+        // switchToWindow("Store");
+        switchToWindow("Google");
 
 
         tearDown();
@@ -32,10 +35,22 @@ public class WindowHandle_Refactor1 {
         for (String windowOrTab : windows) {
             String title = driver.switchTo().window(windowOrTab).getTitle();
             if (title.contains(windowTitle)) {
-                System.out.println("Window is found! Page Title: " + driver.getTitle() +  " URL: " + driver.getCurrentUrl());
+                System.out.println("Window is found! Page Title: " + driver.getTitle() + " URL: " + driver.getCurrentUrl());
+                //break;
             }
         }
     }
 
+
+    public static void switchToWindow(String windowTitle) {
+        Set<String> windows = driver.getWindowHandles();
+        for (String windowOrTab : windows) {
+            String title = driver.switchTo().window(windowOrTab).getTitle();
+            if (title.contains(windowTitle)) {
+                System.out.println("Window is found! Page Title: " + driver.getTitle() + " URL: " + driver.getCurrentUrl());
+                break;   // with 'break' included, if I search Windowtitle by "Google" only first will print, withough break all titles containing Google will print
+            }
+        }
+    }
 
 }

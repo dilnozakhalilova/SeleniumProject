@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class14/WindowHandle_Refactor1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class15/_06_FluentWaitWebDriverSomething01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class15/_07_FluentWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class14/_02_WindowHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class14/_02_WindowHandle1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class15/_05_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/_05_ExplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class14/WindowHandle_Refactor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class14/WindowHandle_Refactor1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +84,13 @@
       <recent name="Class6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._05_ExplicitWait">
-    <configuration name="_01_ImplicitWaitTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class15._01_ImplicitWaitTask" />
+  <component name="RunManager" selected="Application.WindowHandle_Refactor1">
+    <configuration name="WindowHandle_Refactor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class14.WindowHandle_Refactor1" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class15.*" />
+          <option name="PATTERN" value="Class14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_WaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class15._01_WaitDemo" />
+    <configuration name="_01_ImplicitWaitTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class15._01_ImplicitWaitTask" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowHandle_Refactor1" />
         <item itemvalue="Application._05_ExplicitWait" />
         <item itemvalue="Application._04_ExplicitWaitTask" />
         <item itemvalue="Application._03_ExplicitWaitTask" />
         <item itemvalue="Application._01_ImplicitWaitTask" />
-        <item itemvalue="Application._01_WaitDemo" />
       </list>
     </recent_temporary>
   </component>
