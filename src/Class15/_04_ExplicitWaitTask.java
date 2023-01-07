@@ -24,15 +24,16 @@ public class _04_ExplicitWaitTask {
     public static void main(String[] args) {
         setUp("https://the-internet.herokuapp.com/dynamic_loading/2");
 
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));   // Implicit Wait. It is Dynamic and is prefered
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));  // Explicit wait
 
-        try{
-            driver.findElement(By.linkText("Start")).click();
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='finish']/h4")));
-            System.out.println(driver.findElement(By.xpath("//div[@id='finish']/h4")).getText());
+        try {
+            driver.findElement(By.cssSelector("div[id='start'] button")).click();  //div#start button
+            wait.until(ExpectedConditions.textToBe(By.xpath("//div[@id='finish']/h4"),"Hello World!"));
+            System.out.println(driver.findElement(By.xpath("//div[@id='finish']/h4")).getText());   // cssLocator    "div#finish h4"
 
-        }catch (NoSuchElementException e){
+        } catch (NoSuchElementException e) { // Note: TimeOutException
             e.printStackTrace();
             System.out.println("Element is not found. Wait longer for the element to be visible ");
         }
