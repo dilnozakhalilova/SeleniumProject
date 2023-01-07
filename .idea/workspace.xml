@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class15/_05_ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class14/WindowHandle_Refactor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class15/_06_FluentWaitWebDriverSomething01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class15/_07_FluentWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class15/_04_ExplicitWaitTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/_04_ExplicitWaitTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class14/_02_WindowHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class14/_02_WindowHandle1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class15/_05_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/_05_ExplicitWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

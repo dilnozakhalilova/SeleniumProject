@@ -1,8 +1,6 @@
 package Class14;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -11,7 +9,7 @@ import java.util.Set;
 
 import static utils.BaseClass.*;
 
-public class _02_WindowHandle {
+public class _02_WindowHandle1 {
     public static void main(String[] args) {
         setUp("https://google.com");
 
