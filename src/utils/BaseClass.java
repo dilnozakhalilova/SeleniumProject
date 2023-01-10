@@ -4,10 +4,13 @@ package utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.time.Duration;
+
 import static utils.ConfigsReader.*;
 
 
-public class BaseClass {
+public class BaseClass extends CommonMethods {
     public static WebDriver driver;
 
     public static void setUp(String url) {
@@ -25,8 +28,9 @@ public class BaseClass {
         }
 
         //driver.get(ConfigsReader.getProperties("url"));
-        driver.manage().window().maximize();
          driver.get(url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     public static void tearDown() {
