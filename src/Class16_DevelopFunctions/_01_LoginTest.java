@@ -3,10 +3,16 @@ package Class16_DevelopFunctions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utils.BaseClass;
+import utils.CommonMethods.* ;
 import utils.ConfigsReader;
 
+import static utils.BaseClass.*;
+import static utils.CommonMethods.*;
+import static utils.ConfigsReader.*;
 
-public class _01_LoginTest extends BaseClass {
+
+
+public class _01_LoginTest  {
     public static void main(String[] args) {
         setUp("https://exelentersdet.com");
 
@@ -18,8 +24,18 @@ public class _01_LoginTest extends BaseClass {
         // Second Way, with function(Same as above)
         WebElement username = driver.findElement(By.id("txtUsername"));
         //sendText(username, "Admin"); Hard Coded
-       sendText(username, ConfigsReader.getProperties("username"));// here username is a value from sendText() method
-       //DOESN"T WORK=Fix it==>  CommonMethods.sendText(username, ConfigsReader.getProperties("username"));// here username is a value from sendText() method
+        //sendText(username, ConfigsReader.getProperties("username"));// here username is a value from sendText() method
+        sendText(username, ConfigsReader.getProperties("username"));// here username is a value from sendText() method
+
+        WebElement password = driver.findElement(By.id("txtPassword"));
+        sendText(password,ConfigsReader.getProperties("password"));
+
+        WebElement loginBtn = driver.findElement(By.id("btnLogin"));
+        //click(loginBtn);  //fix
+        //loginBtn.click();
+        //clickButWaitForClickability(loginBtn);
+        clickButWaitForVisibility(loginBtn);
+
 
 
         tearDown();
@@ -30,5 +46,7 @@ public class _01_LoginTest extends BaseClass {
  * 2. Extends nameOfClass
  * 3. NameOfClass.method()
  */
+
+
 
 }
