@@ -11,7 +11,22 @@ public class _03_DropdownTest {
     public static void main(String[] args) {
         setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
 
-        tearDown();
+        List<WebElement> listOfMonth = driver.findElements(By.cssSelector("select[name='Month'] option"));
+         String expectedText="June";
+        for(WebElement month: listOfMonth) {
+            String actualText = month.getText();
+            if(actualText.equals(expectedText)){
+                month.click();
+                break;
+
+            }
+        }
+
+
+
+
+
+            tearDown();
     }
 
     }
