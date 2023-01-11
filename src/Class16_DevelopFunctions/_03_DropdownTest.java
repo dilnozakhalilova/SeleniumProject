@@ -12,7 +12,7 @@ public class _03_DropdownTest {
         setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
 
         List<WebElement> listOfMonth = driver.findElements(By.cssSelector("select[name='Month'] option"));
-         String expectedText="June";
+         String expectedText="May";
         for(WebElement month: listOfMonth) {
             String actualText = month.getText();
             if(actualText.equals(expectedText)){
