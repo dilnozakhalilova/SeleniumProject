@@ -16,13 +16,15 @@ public class _04_DropdownTest2 {
 
         //Method 1 ==> without select class  (we need to locate all children within the dropdown===> List <WebElement>)
         List<WebElement> listOfMonths = driver.findElements(By.cssSelector("select[name='Month'] option"));
-        // selectDdValue(listOfMonths, expectedText);
-        // selectDdValue(listOfMonths,"July");  // hard coded
+        selectDdValue(listOfMonths, expectedText);
+        selectDdValue(listOfMonths, "July");  // hard coded
 
         // Method 2. ===> use Select Class( if DD is build with Select class and has options, use this approach
         // we only need to locate parent of dropdown
         WebElement monthsDD = driver.findElement(By.cssSelector("select[name='Month']"));
-        selectDdValue(monthsDD, expectedText);
+        selectDdValue(monthsDD, expectedText);      // Selecting by visible Text
+
+        selectDdValue(monthsDD, 12);             // Selecting by index
 
         tearDown();
 
@@ -50,11 +52,21 @@ public class _04_DropdownTest2 {
             }
         }
     }
-    public static void selectDdValue(WebElement element, int index){
+
+    public static void selectDdValue(WebElement element, int index) {
         Select select = new Select(element);
         List<WebElement> options = select.getOptions();
-        select.selectByIndex(index);
+        if (index < options.size()) {
+            select.selectByIndex(index);
+        } else {
+            try {
+                throw new IndexOutOfBoundsException(index);
+            } catch (IndexOutOfBoundsException e) {
+                e.printStackTrace();
+                System.out.println("Incorrect Index used: ");
+            }
+
+        }
+
     }
-
 }
-
