@@ -14,13 +14,13 @@ public class _04_DropdownTest2 {
 
         String expectedText = "April";
 
-        //Method 1 ==> without select class  (we need to locate all children within the dropdown===> List <WebElemen>)
+        //Method 1 ==> without select class  (we need to locate all children within the dropdown===> List <WebElement>)
         List<WebElement> listOfMonths = driver.findElements(By.cssSelector("select[name='Month'] option"));
         // selectDdValue(listOfMonths, expectedText);
         // selectDdValue(listOfMonths,"July");  // hard coded
 
         // Method 2. ===> use Select Class( if DD is build with Select class and has options, use this approach
-        // we only need to ocate parent of dropdown
+        // we only need to locate parent of dropdown
         WebElement monthsDD = driver.findElement(By.cssSelector("select[name='Month']"));
         selectDdValue(monthsDD, expectedText);
 
