@@ -95,7 +95,45 @@ public class CommonMethods {
             }
         }System.out.println("Test failed. Expected value does not match actual value");
     }
+    public static void selectDdValue(WebElement element, String expectedValue) {
+        Select select = new Select(element);
+        List<WebElement> options = select.getOptions();
+        for (WebElement option : options) {
+            if (option.getText().equals(expectedValue)) {
+                select.selectByVisibleText(expectedValue);
+                break;
+            }
+        }
 
+    }
+
+
+    public static void selectDdValue(List<WebElement> dropDownList, String expectedValue) {
+        for (WebElement element : dropDownList) {
+            String actualValue = element.getText();
+            if (actualValue.equals(expectedValue)) {
+                element.click();
+                break;
+            }
+        }
+    }
+
+    public static void selectDdValue(WebElement element, int index) {
+        Select select = new Select(element);
+        List<WebElement> options = select.getOptions();
+        if (index < options.size()) {
+            select.selectByIndex(index);
+        } else {
+            try {
+                throw new IndexOutOfBoundsException(index);
+            } catch (IndexOutOfBoundsException e) {
+                e.printStackTrace();
+                System.out.println("Incorrect Index used. Please use a number between 1 and  " + options.size());
+            }
+
+        }
+
+    }
 //    public static void selectDropDown(WebElement element, String expected) {
 //        Select select = new Select(element);
 //        for (int i = 0; i < select.getOptions().size(); i++) {
