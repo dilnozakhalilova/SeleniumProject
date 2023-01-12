@@ -22,6 +22,8 @@ public class _02_RadioOrCheckboxTest {
         clickradioOrCheckbox(colorslist,expectedValue);
         clickradioOrCheckbox(browserList,"Mozilla");
 
+
+
 //        for(WebElement color: colorslist){
 //            String colorValue = color.getAttribute("value");// green will be retrieved
 //            if(colorValue.equals(expectedValue)){
@@ -29,6 +31,7 @@ public class _02_RadioOrCheckboxTest {
 //                break;
 //            }
 //        }
+
 
         tearDown();
     }

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -73,14 +74,6 @@ public class CommonMethods {
         element.click();
     }
 
-    public static void verify_text(String actual, String expected) {
-
-    }
-
-    public static void verify_text2(String actual, String expected) {
-
-    }
-
     public static void clickradioOrCheckbox(List<WebElement> radiOrCheckBox, String expectedValue) {
         for (WebElement element : radiOrCheckBox) {
             String actualValue = element.getAttribute("value");
@@ -89,7 +82,28 @@ public class CommonMethods {
                 break;
             }
         }
-
-
     }
+
+    public static void selectFromDropbox(List<WebElement> dropboxSelection, String expectedValue) {
+        for (WebElement element : dropboxSelection) {
+            String actualValue = element.getText();
+            if (actualValue.equals(expectedValue)) {
+                element.click();
+                break;
+            } else {
+
+            }
+        }System.out.println("Test failed. Expected value does not match actual value");
+    }
+
+//    public static void selectDropDown(WebElement element, String expected) {
+//        Select select = new Select(element);
+//        for (int i = 0; i < select.getOptions().size(); i++) {
+//            if (select.getOptions().get(i).getText().equalsIgnoreCase(expected)){
+//                select.getOptions().get(i).click();
+//                break;
+//            }
+//        }
+//    }
+
 }
