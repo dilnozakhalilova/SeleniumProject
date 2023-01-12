@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_04_DropdownTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_02_RadioOrCheckboxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_02_RadioOrCheckboxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_03_DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_03_DropdownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

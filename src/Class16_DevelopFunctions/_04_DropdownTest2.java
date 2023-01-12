@@ -25,6 +25,7 @@ public class _04_DropdownTest2 {
         selectDdValue(monthsDD, expectedText);
 
         tearDown();
+
     }
 
     public static void selectDdValue(WebElement element, String expectedValue) {
@@ -48,6 +49,11 @@ public class _04_DropdownTest2 {
                 break;
             }
         }
+    }
+    public static void selectDdValue(WebElement element, int index){
+        Select select = new Select(element);
+        List<WebElement> options = select.getOptions();
+        select.selectByIndex(index);
     }
 
 }
