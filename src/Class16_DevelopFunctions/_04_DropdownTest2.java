@@ -24,7 +24,8 @@ public class _04_DropdownTest2 {
         WebElement monthsDD = driver.findElement(By.cssSelector("select[name='Month']"));
         selectDdValue(monthsDD, expectedText);      // Selecting by visible Text
 
-        selectDdValue(monthsDD, 12);             // Selecting by index
+        selectDdValue(monthsDD, 19);             // Selecting by index
+        selectDdValue(driver.findElement(By.cssSelector("select[name='country']")),300);
 
         tearDown();
 
@@ -63,7 +64,7 @@ public class _04_DropdownTest2 {
                 throw new IndexOutOfBoundsException(index);
             } catch (IndexOutOfBoundsException e) {
                 e.printStackTrace();
-                System.out.println("Incorrect Index used: ");
+                System.out.println("Incorrect Index used. Please use a number between 1 and  " + options.size());
             }
 
         }
