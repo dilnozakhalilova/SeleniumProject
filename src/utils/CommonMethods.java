@@ -38,8 +38,9 @@ public class CommonMethods {
 
     /**
      * Method will clear and then send value to input fields
+     *
      * @param element WebElement
-     * @param value String
+     * @param value   String
      */
     public static void sendText(WebElement element, String value) {
         element.clear();
@@ -82,8 +83,9 @@ public class CommonMethods {
 
     /**
      * Method selects radio button or checkbox
+     *
      * @param radiOrCheckBox List of Webelements for dropdown or radion buttons
-     * @param expectedValue String
+     * @param expectedValue  String
      */
     public static void clickradioOrCheckbox(List<WebElement> radiOrCheckBox, String expectedValue) {
         for (WebElement element : radiOrCheckBox) {
@@ -110,12 +112,14 @@ public class CommonMethods {
             } else {
 
             }
-        }System.out.println("Test failed. Expected value does not match actual value");
+        }
+        System.out.println("Test failed. Expected value does not match actual value");
     }
 
     /**
      * This method selects from the dropdown or multi-select by text value
-     * @param element  list of WebElement
+     *
+     * @param element       list of WebElement
      * @param expectedValue String
      */
     public static void selectDdValue(WebElement element, String expectedValue) {
@@ -132,6 +136,7 @@ public class CommonMethods {
 
     /**
      * Method selects from dropdown by visible text
+     *
      * @param dropDownList  List of EebElements
      * @param expectedValue String
      */
@@ -144,8 +149,10 @@ public class CommonMethods {
             }
         }
     }
+
     /**
      * Method selects from dropdown by visible text
+     *
      * @param dropDownList  WebElements
      * @param expectedValue int
      */
@@ -166,14 +173,21 @@ public class CommonMethods {
 
     }
 
-    public static void acceptAlert(){
+    public static void acceptAlert() {
         driver.switchTo().alert().accept();
     }
-public static void dismissAlert(){
+
+    public static void dismissAlert() {
         driver.switchTo().alert().dismiss();
-}
+    }
 
-
+    public static void waitInSeconds(int second) {
+        try {
+            Thread.sleep(second * 1000L);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 //    public static void selectDropDown(WebElement element, String expected) {
 //        Select select = new Select(element);
 //        for (int i = 0; i < select.getOptions().size(); i++) {
