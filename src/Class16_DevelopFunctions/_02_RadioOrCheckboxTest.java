@@ -20,7 +20,7 @@ public class _02_RadioOrCheckboxTest {
         String expectedValue="green";
 
         clickradioOrCheckbox(colorslist,expectedValue);
-        clickradioOrCheckbox(browserList,"Mozilla");
+        clickradioOrCheckbox(browserList,"IE");
 
 
 

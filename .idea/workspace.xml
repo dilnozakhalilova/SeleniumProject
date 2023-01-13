@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_05_DropdownTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_05_DropdownTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_02_RadioOrCheckboxTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_02_RadioOrCheckboxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class16_DevelopFunctions/_02_RadioOrCheckboxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +86,9 @@
       <recent name="Class11" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._05_DropdownTest3">
-    <configuration name="_01_LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class16_DevelopFunctions._01_LoginTest" />
+  <component name="RunManager" selected="Application._02_RadioOrCheckboxTest2">
+    <configuration name="_02_RadioOrCheckboxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class16_DevelopFunctions._02_RadioOrCheckboxTest" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_RadioOrCheckboxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class16_DevelopFunctions._02_RadioOrCheckboxTest" />
+    <configuration name="_02_RadioOrCheckboxTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class16_DevelopFunctions._02_RadioOrCheckboxTest2" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._02_RadioOrCheckboxTest2" />
+        <item itemvalue="Application._02_RadioOrCheckboxTest" />
         <item itemvalue="Application._05_DropdownTest3" />
         <item itemvalue="Application._04_DropdownTest2" />
         <item itemvalue="Application._03_DropdownTest" />
-        <item itemvalue="Application._02_RadioOrCheckboxTest" />
-        <item itemvalue="Application._01_LoginTest" />
       </list>
     </recent_temporary>
   </component>

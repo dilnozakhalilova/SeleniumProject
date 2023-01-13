@@ -74,6 +74,11 @@ public class CommonMethods {
         element.click();
     }
 
+    /**
+     * Method selects radio button or checkbox
+     * @param radiOrCheckBox List of Webelements for dropdown or radion buttons
+     * @param expectedValue String
+     */
     public static void clickradioOrCheckbox(List<WebElement> radiOrCheckBox, String expectedValue) {
         for (WebElement element : radiOrCheckBox) {
             String actualValue = element.getAttribute("value");
@@ -95,6 +100,12 @@ public class CommonMethods {
             }
         }System.out.println("Test failed. Expected value does not match actual value");
     }
+
+    /**
+     * This method selects from the dropdown or multi-select by text value
+     * @param element  list of WebElement
+     * @param expectedValue String
+     */
     public static void selectDdValue(WebElement element, String expectedValue) {
         Select select = new Select(element);
         List<WebElement> options = select.getOptions();
@@ -107,7 +118,11 @@ public class CommonMethods {
 
     }
 
-
+    /**
+     * Method selects from dropdown by visible text
+     * @param dropDownList  List of EebElements
+     * @param expectedValue String
+     */
     public static void selectDdValue(List<WebElement> dropDownList, String expectedValue) {
         for (WebElement element : dropDownList) {
             String actualValue = element.getText();
@@ -117,7 +132,11 @@ public class CommonMethods {
             }
         }
     }
-
+    /**
+     * Method selects from dropdown by visible text
+     * @param dropDownList  WebElements
+     * @param expectedValue int
+     */
     public static void selectDdValue(WebElement element, int index) {
         Select select = new Select(element);
         List<WebElement> options = select.getOptions();
