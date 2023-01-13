@@ -36,7 +36,13 @@ public class CommonMethods {
         }
     }
 
+    /**
+     * Method will clear and then send value to input fields
+     * @param element WebElement
+     * @param value String
+     */
     public static void sendText(WebElement element, String value) {
+        element.clear();
         element.sendKeys(value);
     }
 
@@ -159,6 +165,13 @@ public class CommonMethods {
         }
 
     }
+
+    public static void acceptAlert(){
+        driver.switchTo().alert().accept();
+    }
+public static void dismissAlert(){
+        driver.switchTo().alert().dismiss();
+}
 
 
 //    public static void selectDropDown(WebElement element, String expected) {
