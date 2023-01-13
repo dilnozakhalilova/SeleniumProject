@@ -88,6 +88,12 @@ public class CommonMethods {
             }
         }
     }
+//    public static void clickRadioOrCheckbox(WebElement element) {
+//        if (element.isEnabled() && !element.isSelected()) {
+//            element.click();
+//        }
+//    }
+
 
     public static void selectFromDropbox(List<WebElement> dropboxSelection, String expectedValue) {
         for (WebElement element : dropboxSelection) {
@@ -153,6 +159,8 @@ public class CommonMethods {
         }
 
     }
+
+
 //    public static void selectDropDown(WebElement element, String expected) {
 //        Select select = new Select(element);
 //        for (int i = 0; i < select.getOptions().size(); i++) {
