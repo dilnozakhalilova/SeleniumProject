@@ -12,8 +12,25 @@ public class _06_AlertTest {
     public static void main(String[] args) throws InterruptedException {
         setUp("https://selenium08.blogspot.com/2019/07/alert-test.html");
         driver.findElement(By.id("simple")).click();
-        waitInSeconds(2);
+        waitInSeconds(1);
+        System.out.println(getAlertText());
+
         acceptAlert();
+        waitInSeconds(2);
+
+        driver.findElement(By.id("confirm")).click();
+        waitInSeconds(1);
+        System.out.println(getAlertText());
+        dismissAlert();
+
+        waitInSeconds(2);
+        driver.findElement(By.id("prompt")).click();
+        sendAlertText("DK");
+        waitInSeconds(1);
+        System.out.println(getAlertText());
+        acceptAlert();
+
+
 
 
 

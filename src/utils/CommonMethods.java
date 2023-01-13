@@ -1,6 +1,7 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -181,6 +182,28 @@ public class CommonMethods {
         driver.switchTo().alert().dismiss();
     }
 
+
+    public static void sendAlertText(String text) {
+        driver.switchTo().alert().sendKeys(text);
+
+    }
+
+    public static String getAlertText() {
+        String alertText = " ";
+        try {
+            alertText = driver.switchTo().alert().getText();
+        } catch (NoAlertPresentException e) {
+            e.printStackTrace();
+        }
+
+        return alertText;
+    }
+
+    /**
+     * Method will wait for an element to load for a duration of time provided. This is a Static wait, please use with caution.
+     *
+     * @param second int
+     */
     public static void waitInSeconds(int second) {
         try {
             Thread.sleep(second * 1000L);
