@@ -175,16 +175,34 @@ public class CommonMethods {
     }
 
     public static void acceptAlert() {
-        driver.switchTo().alert().accept();
+        try{
+            driver.switchTo().alert().accept();
+        }catch (NoAlertPresentException e){
+            e.printStackTrace();
+            System.out.println("Alert is not present");
+        }
+
     }
 
     public static void dismissAlert() {
-        driver.switchTo().alert().dismiss();
+        try{
+            driver.switchTo().alert().dismiss();
+        }catch (NoAlertPresentException e){
+            e.printStackTrace();
+            System.out.println("Alert is not present");
+        }
+
     }
 
 
     public static void sendAlertText(String text) {
-        driver.switchTo().alert().sendKeys(text);
+        try{
+            driver.switchTo().alert().sendKeys(text);
+        }catch (NoAlertPresentException e){
+            e.printStackTrace();
+            System.out.println("Alert is not present");
+        }
+
 
     }
 
