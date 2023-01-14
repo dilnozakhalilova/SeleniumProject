@@ -2,7 +2,7 @@ package utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Set;
 
 import static utils.BaseClass.driver;
+
 
 /**
  * NOTE: This is our Bank for reusing methods elsewhere in the framework when we need it.
@@ -44,6 +45,10 @@ public class CommonMethods {
      * @param value   String
      */
     public static void sendText(WebElement element, String value) {
+        element.clear();
+        element.sendKeys(value);
+    }
+    public static void sendText3(WebElement element, String value) {
         element.clear();
         element.sendKeys(value);
     }
@@ -193,7 +198,15 @@ public class CommonMethods {
         }
 
     }
+    public static void dismissAlert2() {
+        try{
+            driver.switchTo().alert().dismiss();
+        }catch (NoAlertPresentException e){
+            e.printStackTrace();
+            System.out.println("Alert is not present");
+        }
 
+    }
 
     public static void sendAlertText(String text) {
         try{

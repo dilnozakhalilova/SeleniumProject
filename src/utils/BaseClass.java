@@ -1,21 +1,22 @@
 package utils;
 
 // NOTE: THIS CLASS IS USED TO LAUNCH AND QUITE THE BROWSER
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-import static utils.ConfigsReader.*;
+import static org.openqa.selenium.devtools.v85.runtime.Runtime.getProperties;
 
-
-public class BaseClass extends CommonMethods {
+public class BaseClass  {
     public static WebDriver driver;
 
     public static void setUp(String url) {
     ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
-        switch (getProperties("browser").toLowerCase()) {
+        switch (ConfigsReader.getProperties("browser").toLowerCase()) {
             case "chrome" ->{
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();}

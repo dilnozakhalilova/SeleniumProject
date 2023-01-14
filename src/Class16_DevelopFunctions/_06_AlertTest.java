@@ -20,6 +20,7 @@ public class _06_AlertTest {
         waitInSeconds(2);
 
         driver.findElement(By.id("confirm")).click();
+
         waitInSeconds(1);
         System.out.println(getAlertText());
         dismissAlert();
@@ -30,6 +31,7 @@ public class _06_AlertTest {
         waitInSeconds(1);
         System.out.println(getAlertText());
         acceptAlert();
+
 
 
 
