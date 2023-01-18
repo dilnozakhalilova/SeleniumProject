@@ -28,10 +28,16 @@ public class _02_DynamicTable {
         }
 
         System.out.println("======Print rows using regular For loop=======");
+        System.out.println();
+        // Note: Benefits of using for loop with web tables is that we can skip header. We hav e more control with "For Loop" how to iterate a list of web Elements
         for (int i = 1; i < rows.size(); i++) {                     // Instead of 0 we start printing from 1 because 0 holds header, which we do not want to print at this time
             System.out.println(rows.get(i).getText());
-
         }
+
+        System.out.println("======= Print Columns==========");
+        System.out.println();
+        System.out.println("Total Number of columns: "+ driver.findElements(By.xpath("//table[@class='SampleTable']//tr[1]/th")).size());
+
 
         tearDown();
     }
