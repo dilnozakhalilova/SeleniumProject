@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class17_WebTables/_03_DynamicTable1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_02_DynamicTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class17_WebTables/_02_DynamicTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +89,11 @@
       <recent name="C:\Users\dilno\JavaCourse\JavaProjects\SeleniumProject\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class17_WebTables" />
       <recent name="Class16_DevelopFunctions" />
       <recent name="Class15" />
       <recent name="Class14" />
       <recent name="Class13" />
-      <recent name="Class11" />
     </key>
   </component>
   <component name="RunManager" selected="Application._02_DynamicTable">

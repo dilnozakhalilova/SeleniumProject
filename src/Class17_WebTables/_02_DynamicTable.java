@@ -36,7 +36,7 @@ public class _02_DynamicTable {
 
         System.out.println("======= Print Columns==========");
         System.out.println();
-        System.out.println("Total Number of columns: "+ driver.findElements(By.xpath("//table[@class='SampleTable']//tr[1]/th")).size());
+        System.out.println("Total Number of columns: " + driver.findElements(By.xpath("//table[@class='SampleTable']//tr[1]/th")).size());
 
 
         tearDown();
