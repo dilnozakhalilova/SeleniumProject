@@ -28,14 +28,18 @@ public class _03_DynamicTable1 {
         String expectedValue = "Charles Dodgeson";
         // By.css ==> table.SampleTable tr td:nth-child(10)
         // By.xPath===> table[@class='SampleTable']//tr/td[10]
-        WebElement actualValues = driver.findElement(By.xpath("//table[@class='SampleTable']//tr/td[2]"));
+
+        List<WebElement> actualValues = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[2]"));
+        System.out.println("actualValues = " + actualValues);
 
         for (int i = 0; i < rows.size(); i++) {
-            List<WebElement> checkboxRow = driver.findElements(By.xpath("(//table[@class='SampleTable']//tr/td/input)[" + i + "]"));
-            if (expectedValue.equals(actualValues)) {
-                checkboxRow.get(i).click();
-            }
+            List<WebElement> elements = driver.findElements(By.xpath("(//table[@class='SampleTable']//tr/td/input)[" + i + "]"));
+            for (int j = 0; j < elements.size(); j++) {
+                if (expectedValue.equals(actualValues)) {
 
+                }
+
+            }
 
         }
 
@@ -45,4 +49,9 @@ public class _03_DynamicTable1 {
 }
 
 //        WebElement checkboxesList = driver.findElement(By.xpath("//table[@class='SampleTable']//tr/td[1]"));
+//      driver.findElement(By.cssSelector("input[type='checkbox']:nth-child(" + i + ")")); // <== we can also use xPath version of this css
+//        }
 //
+//        // Step 2: locate Delete web element and click on it to delete selected name
+//        // Step 2: locate 'Delete' button web element and click on it to delete selected name above
+//        // Step 3: Print all rows again, now you should have one less row.
