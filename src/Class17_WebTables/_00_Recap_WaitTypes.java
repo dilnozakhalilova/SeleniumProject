@@ -1,15 +1,12 @@
-package Class17;
+package Class17_WebTables;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.time.Duration;
-import java.util.List;
 
 import static utils.BaseClass.*;
 
-import static utils.CommonMethods.waitForElement;
 import static utils.CommonMethods.waitInSeconds;
 
 public class _00_Recap_WaitTypes {
