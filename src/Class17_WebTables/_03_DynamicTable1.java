@@ -26,11 +26,9 @@ public class _03_DynamicTable1 {
         // By.css ==> table.SampleTable tr td:nth-child(10)
         // By.xPath===> table[@class='SampleTable']//tr/td[10]
         WebElement actualValues= driver.findElement(By.xpath("//table[@class='SampleTable']//tr/td[2]"));
-        WebElement checkboxesList = driver.findElement(By.xpath("//table[@class='SampleTable']//tr/td[1]"));
-        if(actualValues.equals(expectedValue)){
 
 
-        }
+
 
 
 
@@ -41,3 +39,7 @@ public class _03_DynamicTable1 {
         tearDown();
     }
 }
+
+//        WebElement checkboxesList = driver.findElement(By.xpath("//table[@class='SampleTable']//tr/td[1]"));
+//        if(actualValues.equals(expectedValue)){
+// }
