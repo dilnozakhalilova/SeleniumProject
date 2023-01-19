@@ -35,6 +35,21 @@ public class _03_DynamicTable_1 {
         rows = driver.findElements(By.cssSelector("table[class='SampleTable'] tr"));
         System.out.println("Number of rows: " + rows.size());
 
+
+        System.out.println("==============================My Practice with Locators=======================================");
+        System.out.println();
+
+
+        driver.findElement(By.xpath("//ul[@id='ctl00_menu']/li[2]/a")).click();
+        List<WebElement> secondTableRows = driver.findElements(By.xpath("//table[@class='ProductsTable']//tr"));
+        for (int i = 0; i <secondTableRows.size() ; i++) {
+           if(secondTableRows.get(i).getText().contains("MyMoney")){
+               List<WebElement> itemsInRow2 = driver.findElements(By.xpath("//table[@class='ProductsTable']//tr[2]"));
+
+           }
+
+        }
+
         tearDown();
     }
 

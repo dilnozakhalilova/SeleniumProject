@@ -26,6 +26,12 @@ public class _04_TableWithoutTableTag_1 {
         List<WebElement> rows = driver.findElements(By.cssSelector("div.rt-tr-group"));
         int totalRows = rows.size();
         System.out.println("\nNumber of rows: " + totalRows);
+        for (int i = 0; i < rows.size(); i++) {
+
+
+        }
+
+
 
 
         tearDown();
