@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_03_DynamicTable_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class17_WebTables/_03_DynamicTable_0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_03_DynamicTable_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class17_WebTables/_03_DynamicTable_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <recent name="Class13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._03_DynamicTable_1">
+  <component name="RunManager" selected="Application._04_TableWithoutTableTag_1">
     <configuration name="_01_WebTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class17_WebTables._01_WebTableDemo" />
       <module name="SeleniumProject" />
@@ -116,19 +115,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Class17_WebTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_02_RadioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class6._02_RadioDemo" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_04_TableWithoutTableTag_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class17_WebTables._04_TableWithoutTableTag_1" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class17_WebTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._04_TableWithoutTableTag_1" />
         <item itemvalue="Application._03_DynamicTable_1" />
         <item itemvalue="Application._03_DynamicTable_0" />
         <item itemvalue="Application._02_DynamicTable" />
         <item itemvalue="Application._01_WebTableDemo" />
-        <item itemvalue="Application._02_RadioDemo" />
       </list>
     </recent_temporary>
   </component>
