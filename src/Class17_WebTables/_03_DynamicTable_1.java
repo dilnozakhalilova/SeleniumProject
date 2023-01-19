@@ -19,20 +19,22 @@ public class _03_DynamicTable_1 {
         List<WebElement> rows = driver.findElements(By.cssSelector("table[class='SampleTable'] tr"));
         System.out.println("Number of rows: " + rows.size());
 
-        String expectedValue = "Charles Dodgeson";
-        List<WebElement> actualValues = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[2]"));
-        for (int i = 0; i < actualValues.size(); i++) {
-            if (actualValues.get(i).getText().equals(expectedValue)) {
-                driver.findElement(By.xpath("(//input[@type='checkbox'])[" + (i+1) + "]")).click();
-                waitInSeconds(1);
-                driver.findElement(By.id("ctl00_MainContent_btnDelete")).click();//
-                waitInSeconds(1);
+        String expectedValue = "Mark";
+        List<WebElement> actualValues = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[2]"));// Names column
 
-                break;
+        for (int i = 1; i < rows.size(); i++) {
+            if (rows.get(i).getText().contains(expectedValue)) {
+                driver.findElement(By.xpath("(//input[@type='checkbox'])[" + i + "]")).click();
             }
 
-
         }
+        // Once you find expected value , click delete button and delete it
+        driver.findElement(By.id("ctl00_MainContent_btnDelete")).click();
+
+        // Reprint number of rows after deletion
+        rows = driver.findElements(By.cssSelector("table[class='SampleTable'] tr"));
+        System.out.println("Number of rows: " + rows.size());
+
         tearDown();
     }
 

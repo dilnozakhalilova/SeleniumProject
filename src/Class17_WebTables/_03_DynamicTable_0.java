@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 import static utils.BaseClass.*;
+import static utils.CommonMethods.waitInSeconds;
 
 public class _03_DynamicTable_0 {
     public static void main(String[] args) throws InterruptedException {
@@ -26,21 +27,20 @@ public class _03_DynamicTable_0 {
         // By.xPath===> table[@class='SampleTable']//tr/td[10]
 
 
-        String expectedValue = "Charles Dodgeson";
-        List<WebElement> actualValues = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[1]"));
+        String expectedValue = "Clare Jefferson";
+        List<WebElement> actualValues = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[2]"));
         for (int i = 0; i < actualValues.size(); i++) {
             if (actualValues.get(i).getText().equals(expectedValue)) {
-                // driver.findElement(By.xpath("(//table[@class='SampleTable']//tr/td/input)[" + i + "]")).click();  // driver.findElement(By.cssSelector("input[type='checkbox']:nth-child(" + i + ")"))
-                driver.findElement(By.cssSelector("//table[@class='SampleTable']//tr" + i)).click();
-                Thread.sleep(1000);
+                driver.findElement(By.xpath("(//input[@type='checkbox'])[" + (i+1) + "]")).click();
+                waitInSeconds(1);
                 driver.findElement(By.id("ctl00_MainContent_btnDelete")).click();//
-                Thread.sleep(1000);
-
+                waitInSeconds(1);
                 break;
             }
 
 
         }
+
         tearDown();
     }
 
