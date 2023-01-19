@@ -24,29 +24,23 @@ public class _03_DynamicTable1 {
         // Task: Selecting a specific row and performing action on it, such as, edit or delete it
         // Logic. Compare actual with expected, once match is found, click on the checkbox and then click on the delete button
         // mini task.
-
-        String expectedValue = "Charles Dodgeson";
         // By.css ==> table.SampleTable tr td:nth-child(10)
         // By.xPath===> table[@class='SampleTable']//tr/td[10]
-
+        String expectedValue = "Charles Dodgeson";
         List<WebElement> actualValues = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[2]"));
-        System.out.println("actualValues = " + actualValues);
-
-        for (int i = 0; i < rows.size(); i++) {
-            List<WebElement> elements = driver.findElements(By.xpath("(//table[@class='SampleTable']//tr/td/input)[" + i + "]"));
-            for (int j = 0; j < elements.size(); j++) {
-                if (expectedValue.equals(actualValues)) {
-
-                }
-
+        for (int i = 0; i < actualValues.size(); i++) {
+            if (actualValues.get(i).getText().equals(expectedValue)) {
+                driver.findElements(By.xpath("(//table[@class='SampleTable']//tr/td/input)[" + i + "]"));
+                Thread.sleep(1000);
+                break;
             }
 
         }
-
-
         tearDown();
     }
+
 }
+
 
 //        WebElement checkboxesList = driver.findElement(By.xpath("//table[@class='SampleTable']//tr/td[1]"));
 //      driver.findElement(By.cssSelector("input[type='checkbox']:nth-child(" + i + ")")); // <== we can also use xPath version of this css
