@@ -28,7 +28,8 @@ public class _04_TableWithoutTableTag_1 {
         int totalRows = rows.size();
         System.out.println("\nNumber of rows: " + totalRows);
         for (WebElement row : rows) {
-            System.out.println("\n " + row.getText() + " | ");
+            System.out.print( row.getText() + " | ");
+
         }
         int notEmptyRow = 0;
         int emptyRows = 0;
