@@ -37,13 +37,29 @@ public class _04_TableWithoutTableTag_2 {
            if (!rows.get(i).getText().isEmpty() && !rows.get(i).getText().isBlank()) {
                count++;
            }
-
         }
         System.out.println("Number of NonEmpty rows: "+ count);
 
+        // Adding one row
+        driver.findElement(By.cssSelector("button[id='addNewRecordButton']")).click();
+        waitInSeconds(1);
+        driver.findElement(By.id("firstName")).sendKeys("Dilnoza");
+        driver.findElement(By.xpath("(//input[@class=' mr-sm-2 form-control'] )[2]")).sendKeys("Khalilova");
+        driver.findElement(By.xpath("//input[@id='userEmail']")).sendKeys("Something@gmail.com");
+        driver.findElement(By.xpath("(//input[@class=' mr-sm-2 form-control'])[3]")).sendKeys("34");
+        driver.findElement(By.xpath("//input[@id='salary']")).sendKeys("125000");
+        driver.findElement(By.id("department")).sendKeys("Dev/QA");
+        waitInSeconds(1);
+        driver.findElement(By.id("submit")).click();
 
+        System.out.println("================All Rows================");
 
-
+        int countRows=0;
+        rows = driver.findElements(By.xpath("//div[@class=\"rt-tr-group\"]"));
+        for (int i = 0; i < rows.size(); i++) {
+            System.out.println(rows.get(i).getText());
+            countRows++;
+        }
 
 
         tearDown();

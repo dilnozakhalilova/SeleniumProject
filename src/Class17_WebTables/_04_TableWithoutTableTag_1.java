@@ -46,7 +46,7 @@ public class _04_TableWithoutTableTag_1 {
         System.out.println("emptyRows = " + emptyRows);
         System.out.println("notEmptyRow = " + notEmptyRow);
 
-        // Get non empty rows text
+        // Add a  rows text
         driver.findElement(By.cssSelector("button[id='addNewRecordButton']")).click();
         driver.findElement(By.id("firstName")).sendKeys("Dilnoza");
         driver.findElement(By.xpath("(//input[@class=' mr-sm-2 form-control'] )[2]")).sendKeys("Khalilova");
