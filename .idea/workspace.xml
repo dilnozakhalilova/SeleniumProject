@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_00_Recap_WaitTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/Class17_WebTables/_00_Recap_WaitTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_01_WebTableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/Class17_WebTables/_01_WebTableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_02_DynamicTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/Class17_WebTables/_02_DynamicTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_03_DynamicTable_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/Class17_WebTables/_03_DynamicTable_0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_03_DynamicTable_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/Class17_WebTables/_03_DynamicTable_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class15/Class17_WebTables/_04_TableWithoutTableTag_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

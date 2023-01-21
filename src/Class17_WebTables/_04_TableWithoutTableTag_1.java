@@ -37,9 +37,9 @@ public class _04_TableWithoutTableTag_1 {
         int emptyRows = 0;
         for (int i = 0; i < rows.size(); i++) {
             if (!rows.get(i).getText().isEmpty()) {
-                notEmptyRow = i;
+                notEmptyRow++;
             } else if (rows.get(i).getText().isBlank()) {
-                emptyRows = i;
+                emptyRows ++;
             }
         }
 

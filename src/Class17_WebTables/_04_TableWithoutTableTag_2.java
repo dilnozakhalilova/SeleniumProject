@@ -32,6 +32,19 @@ public class _04_TableWithoutTableTag_2 {
 
 
         //Print  Rows that are not blank
+        int count=0;
+        for (int i = 0; i < rows.size(); i++) {
+           if (!rows.get(i).getText().isEmpty() && !rows.get(i).getText().isBlank()) {
+               count++;
+           }
+
+        }
+        System.out.println("Number of NonEmpty rows: "+ count);
+
+
+
+
+
 
         tearDown();
     }
