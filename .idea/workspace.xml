@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class17_WebTables/_05_HwTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class18_Calendars/_01_SimpleCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class18_Calendars/_02_Expedia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class17_WebTables/_04_TableWithoutTableTag_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,26 +98,13 @@
       <recent name="Class13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._04_TableWithoutTableTag_2">
-    <configuration name="_02_DynamicTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class17_WebTables._02_DynamicTable" />
+  <component name="RunManager" selected="Application._01_SimpleCalendar">
+    <configuration name="_01_SimpleCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._01_SimpleCalendar" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class17_WebTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_03_DynamicTable_0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class17_WebTables._03_DynamicTable_0" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class17_WebTables.*" />
+          <option name="PATTERN" value="Class18_Calendars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,13 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_05_HwTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class17_WebTables._05_HwTask" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class17_WebTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._01_SimpleCalendar" />
+        <item itemvalue="Application._05_HwTask" />
         <item itemvalue="Application._04_TableWithoutTableTag_2" />
         <item itemvalue="Application._04_TableWithoutTableTag_1" />
         <item itemvalue="Application._03_DynamicTable_1" />
-        <item itemvalue="Application._03_DynamicTable_0" />
-        <item itemvalue="Application._02_DynamicTable" />
       </list>
     </recent_temporary>
   </component>
