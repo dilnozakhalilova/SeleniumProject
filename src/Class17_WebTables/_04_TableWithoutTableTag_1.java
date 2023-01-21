@@ -22,13 +22,15 @@ public class _04_TableWithoutTableTag_1 {
         for (WebElement column : columns) {
             System.out.print(column.getText() + " | ");
         }
+        System.out.println();
 
         // Print rows
-        List<WebElement> rows = driver.findElements(By.cssSelector("div.rt-tr-group"));
+       // List<WebElement> rows = driver.findElements(By.cssSelector("div.rt-tr-group"));
+        List<WebElement> rows = driver.findElements(By.xpath("//div[@class=\"rt-tr-group\"]"));
         int totalRows = rows.size();
-        System.out.println("\nNumber of rows: " + totalRows);
+        System.out.println("Number of rows: " + totalRows);
         for (WebElement row : rows) {
-            System.out.print( row.getText() + " | ");
+            System.out.print(row.getText() + " | ");
 
         }
         int notEmptyRow = 0;
@@ -38,9 +40,9 @@ public class _04_TableWithoutTableTag_1 {
                 notEmptyRow = i;
             } else if (rows.get(i).getText().isBlank()) {
                 emptyRows = i;
-
             }
         }
+
         System.out.println("emptyRows = " + emptyRows);
         System.out.println("notEmptyRow = " + notEmptyRow);
 

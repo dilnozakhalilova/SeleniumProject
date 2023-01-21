@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 import static utils.BaseClass.*;
-import static utils.CommonMethods.waitInSeconds;
 
 public class _03_DynamicTable_1 {
     public static void main(String[] args) throws InterruptedException {
