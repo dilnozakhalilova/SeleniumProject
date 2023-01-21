@@ -25,20 +25,20 @@ public class _04_TableWithoutTableTag_2 {
         System.out.println();
 
         // Print rows
-       // List<WebElement> rows = driver.findElements(By.cssSelector("div.rt-tr-group"));
+        // List<WebElement> rows = driver.findElements(By.cssSelector("div.rt-tr-group"));
         List<WebElement> rows = driver.findElements(By.xpath("//div[@class=\"rt-tr-group\"]"));
         int totalRows = rows.size();
         System.out.println("Number of rows: " + totalRows);
 
 
         //Print  Rows that are not blank
-        int count=0;
+        int count = 0;
         for (int i = 0; i < rows.size(); i++) {
-           if (!rows.get(i).getText().isEmpty() && !rows.get(i).getText().isBlank()) {
-               count++;
-           }
+            if (!rows.get(i).getText().isEmpty() && !rows.get(i).getText().isBlank()) {
+                count++;
+            }
         }
-        System.out.println("Number of NonEmpty rows: "+ count);
+        System.out.println("Number of NonEmpty rows: " + count);
 
         // Adding one row
         driver.findElement(By.cssSelector("button[id='addNewRecordButton']")).click();
@@ -54,9 +54,10 @@ public class _04_TableWithoutTableTag_2 {
 
         System.out.println("================All Rows================");
 
-        int countRows=0;
+        int countRows = 1;
         rows = driver.findElements(By.xpath("//div[@class=\"rt-tr-group\"]"));
         for (int i = 0; i < rows.size(); i++) {
+            System.out.println("----Row " + countRows + " -----");
             System.out.println(rows.get(i).getText());
             countRows++;
         }
