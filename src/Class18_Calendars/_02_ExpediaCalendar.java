@@ -14,7 +14,7 @@ public class _02_ExpediaCalendar {
         Depart: May 17th, 2023
         Returning: July 26th, 2023
          */
-        setUp("https://www.expedia.com/Flights");
+        setUp("https://www.expedia.com");
 
         // Click on the 'Departing' button/field to pop the calendar
         driver.findElement(By.id("d1-btn")).click();
@@ -41,13 +41,23 @@ public class _02_ExpediaCalendar {
         }
         waitInSeconds(1);
 
-        while(!monthAndYear.equals("July 2023")){ //
-            // When we click next button it is no longer 'February 2023', it is 'March 2023' so we need to reassign again,
-            // store it again for validation inside the whileloop condition
+        while(!monthAndYear.equals("August 2023")){ //
+            driver.findElement(By.cssSelector(".uitk-calendar button:nth-child(2)")).click();  // Click on the next button
+            waitInSeconds(1);
             monthAndYear = driver.findElement(By.xpath("(//h2[@class='uitk-date-picker-month-name uitk-type-medium'])[1]")).getText();
         }
 
+        // Selecting day for return
+        days = driver.findElements(By.xpath("(//table[@class='uitk-date-picker-weeks'])[1]//button"));
+        for(WebElement day : days){
+            if(day.getAttribute("data-day").equals("15")) {
+                day.click();
+                break;
+            }
+        }
 
+        // Once Depart and Return dates are selected, click on the 'Done'button
+        driver.findElement(By.xpath("(//button[text()='Done'])[2]")).click();
 
         tearDown();
     }
