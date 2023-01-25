@@ -20,6 +20,15 @@ public class _02_ExpediaCalendar {
         String monthAndYear = driver.findElement(By.xpath("(//h2[@class='uitk-date-picker-month-name uitk-type-medium'])[1]")).getText();
 
 
+        while(!monthAndYear.equals("May 2023")){ //   xPath = //div[@class='uitk-calendar']//button[2]
+            driver.findElement(By.cssSelector(".uitk-calendar button:nth-child(2)")).click();  // Click on the next button
+            waitInSeconds(1);
+
+            // When we click next button it is no longer 'February 2023', it is 'March 2023' so we need to reassign again, store it again for validation inside the whileloop condition
+            monthAndYear = driver.findElement(By.xpath("(//h2[@class='uitk-date-picker-month-name uitk-type-medium'])[1]")).getText();
+
+        }
+
 
         tearDown();
     }
