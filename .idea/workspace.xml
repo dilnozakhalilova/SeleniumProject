@@ -95,7 +95,7 @@
       <recent name="Class13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._01_SimpleCalendar">
+  <component name="RunManager" selected="Application._02_ExpediaCalendar">
     <configuration name="_01_SimpleCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class18_Calendars._01_SimpleCalendar" />
       <module name="SeleniumProject" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_DynamicTable_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class17_WebTables._03_DynamicTable_1" />
+    <configuration name="_02_ExpediaCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._02_ExpediaCalendar" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class17_WebTables.*" />
+          <option name="PATTERN" value="Class18_Calendars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._02_ExpediaCalendar" />
         <item itemvalue="Application._01_SimpleCalendar" />
         <item itemvalue="Application._05_HwTask" />
         <item itemvalue="Application._04_TableWithoutTableTag_2" />
         <item itemvalue="Application._04_TableWithoutTableTag_1" />
-        <item itemvalue="Application._03_DynamicTable_1" />
       </list>
     </recent_temporary>
   </component>
