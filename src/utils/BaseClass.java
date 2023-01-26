@@ -9,7 +9,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-import static org.openqa.selenium.devtools.v85.runtime.Runtime.getProperties;
 
 public class BaseClass extends CommonMethods {
     public static WebDriver driver;

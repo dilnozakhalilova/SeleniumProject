@@ -41,7 +41,7 @@ public class _02_ScreenshotSelenium4 {
         WebElement quickLaunge = driver.findElement(By.className("quickLaungeContainer"));
         File sourceFile = quickLaunge.getScreenshotAs(OutputType.FILE);
         try {
-            FileHandler.copy(sourceFile,new File("screenshots/quickLaunch.png"));
+            FileHandler.copy(sourceFile,new File("screenshots/quickLaunch1.png"));
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("Unable to take a screenshot");
