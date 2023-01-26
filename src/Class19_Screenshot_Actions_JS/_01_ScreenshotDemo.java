@@ -35,7 +35,7 @@ public class _01_ScreenshotDemo {
         TakesScreenshot takeScreenshot = (TakesScreenshot) driver;   // telling driver to allow screenshots
         File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);   // actual value from the website
         try {
-            FileUtils.copyFile(sourceFile,new File("screenshots/dashboard.png"));
+            FileUtils.copyFile(sourceFile,new File("screenshots/dashboard2.jpeg"));// changing png to jpeg, make sure you rename dashboars2.. or it will override previous screen
         } catch (IOException e) {
            e.printStackTrace();
             System.out.println("Screenshot is not taken");
