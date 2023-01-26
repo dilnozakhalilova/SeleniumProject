@@ -51,7 +51,7 @@ public class _01_ScreenshotSelenium3 {
         File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);   // actual value from the website
 
         try {
-            FileUtils.copyFile(sourceFile, new File("screenshots/dashboard5.jpeg"));// changing png to jpeg, make sure you rename dashboars2.. or it will override previous screen
+            FileUtils.copyFile(sourceFile, new File("screenshots/dashboard6.jpeg"));// changing png to jpeg, make sure you rename dashboars2.. or it will override previous screen
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("Screenshot is not taken");

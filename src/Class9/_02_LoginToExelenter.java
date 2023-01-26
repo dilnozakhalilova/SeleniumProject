@@ -26,7 +26,7 @@ public class _02_LoginToExelenter {
                 break;
 
             case"firefox":
-                System.setProperty("webdriver.geckodriver.driver","drivers/geckodriver.exe");// both gecko.exe and geckodriver.exe works
+            System.setProperty("webdriver.geckodriver.driver","drivers/geckodriver.exe");// both gecko.exe and geckodriver.exe works
                  driver = new FirefoxDriver();
                 break;
         }
