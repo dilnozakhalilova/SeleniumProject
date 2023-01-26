@@ -2,11 +2,11 @@ package Class17_WebTables;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.CommonMethods;
 
 import java.util.List;
 
 import static utils.BaseClass.*;
-import static utils.CommonMethods.waitInSeconds;
 
 public class _04_TableWithoutTableTag_1 {
     public static void main(String[] args) {
@@ -56,7 +56,7 @@ public class _04_TableWithoutTableTag_1 {
         driver.findElement(By.id("department")).sendKeys("Dev/QA");
         driver.findElement(By.id("submit")).click();
 
-        waitInSeconds(1);
+        CommonMethods.wait(1);
 
 
         tearDown();

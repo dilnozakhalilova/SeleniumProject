@@ -2,6 +2,7 @@ package Class18_Calendars;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.CommonMethods;
 
 import static utils.BaseClass.*;
 
@@ -30,7 +31,7 @@ public class _04_Task1Hw {
         while (!monthAndYear.equals(departureMonthYear)) {
             driver.findElement(By.xpath("(//span[@class='monthSelector'])[2]")).click();
             monthAndYear = driver.findElement(By.xpath("//span[@class='dl-datepicker-year dl-datepicker-year-0']"));
-            waitInSeconds(1);
+            CommonMethods.wait(1);
             break;
         }
 

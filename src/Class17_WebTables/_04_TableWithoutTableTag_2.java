@@ -2,11 +2,11 @@ package Class17_WebTables;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.CommonMethods;
 
 import java.util.List;
 
 import static utils.BaseClass.*;
-import static utils.CommonMethods.waitInSeconds;
 
 public class _04_TableWithoutTableTag_2 {
     public static void main(String[] args) {
@@ -42,14 +42,14 @@ public class _04_TableWithoutTableTag_2 {
 
         // Adding one row
         driver.findElement(By.cssSelector("button[id='addNewRecordButton']")).click();
-        waitInSeconds(1);
+        CommonMethods.wait(1);
         driver.findElement(By.id("firstName")).sendKeys("Dilnoza");
         driver.findElement(By.xpath("(//input[@class=' mr-sm-2 form-control'] )[2]")).sendKeys("Khalilova");
         driver.findElement(By.xpath("//input[@id='userEmail']")).sendKeys("Something@gmail.com");
         driver.findElement(By.xpath("(//input[@class=' mr-sm-2 form-control'])[3]")).sendKeys("34");
         driver.findElement(By.xpath("//input[@id='salary']")).sendKeys("125000");
         driver.findElement(By.id("department")).sendKeys("Dev/QA");
-        waitInSeconds(1);
+        CommonMethods.wait(1);
         driver.findElement(By.id("submit")).click();
 
         System.out.println("================All Rows================");

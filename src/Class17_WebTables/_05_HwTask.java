@@ -14,6 +14,7 @@ package Class17_WebTables;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.CommonMethods;
 
 import java.util.List;
 
@@ -35,7 +36,7 @@ public class _05_HwTask {
         driver.findElement(By.id("lastName")).sendKeys("Smith");
         String employeeId = driver.findElement(By.id("employeeId")).getText();
         driver.findElement(By.id("btnSave")).click();
-        waitInSeconds(1);
+        CommonMethods.wait(1);
 
         if(employeeId.equals(driver.findElement(By.id("personal_txtEmployeeId")).getText())){
             System.out.println("New employess successfully added");
@@ -62,7 +63,7 @@ public class _05_HwTask {
 
 
 
-        waitInSeconds(1);
+        CommonMethods.wait(1);
 
 
         tearDown();

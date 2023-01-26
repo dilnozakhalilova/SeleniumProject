@@ -2,6 +2,7 @@ package Class18_Calendars;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.CommonMethods;
 
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class _02_ExpediaCalendar {   // remove/Flights from the URL
         while (!monthAndYear.equals(departMonthAndYear)) { //   xPath = //div[@class='uitk-calendar']//button[2]
            WebElement element= driver.findElement(By.cssSelector(".uitk-calendar button:nth-child(2)"));  // Click on the next button
             clickButWaitForClickability(element);
-            waitInSeconds(1);
+            CommonMethods.wait(1);
             // When we click next button it is no longer 'February 2023', it is 'March 2023' so we need to reassign again, store it again for validation inside the whileloop condition
             monthAndYear = driver.findElement(By.xpath("(//h2[@class='uitk-date-picker-month-name uitk-type-medium'])[1]")).getText();
         }
@@ -49,11 +50,11 @@ public class _02_ExpediaCalendar {   // remove/Flights from the URL
             }
         }
 
-        waitInSeconds(1);
+        CommonMethods.wait(1);
 
         while (!monthAndYear.equals(returnMonthAndYear)) { //
             driver.findElement(By.cssSelector(".uitk-calendar button:nth-child(2)")).click();  // Click on the next button
-            waitInSeconds(1);
+            CommonMethods.wait(1);
             monthAndYear = driver.findElement(By.xpath("(//h2[@class='uitk-date-picker-month-name uitk-type-medium'])[1]")).getText();
         }
 

@@ -1,21 +1,15 @@
 package Class19_Screenshot_Actions_JS;
 
 
-import org.apache.batik.ext.awt.image.renderable.DeferRable;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ConfigsReader;
 
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 
 import static utils.BaseClass.*;
 
@@ -27,10 +21,9 @@ import static utils.BaseClass.*;
  */
 
 
-public class _01_ScreenshotDemo {
+public class _01_ScreenshotSelenium3 {
     public static void main(String[] args) {
         setUp("https://exelentersdet.com/");
-
 
 
         // Log in to web application
@@ -47,14 +40,20 @@ public class _01_ScreenshotDemo {
 
 
         // Second way: we use one of the waits from the Common methods
+         waitForPresenceOfElement(By.className("flot-overlay"));       // this method is coming from CommonMethods Class
+        //waitForVisibilityOfElement(By.className("flot-overlay"));      // this method is coming from CommonMethods Class
 
-        waitForPresenceOfElement(By.className("flot-overlay"));
+
+        //3rd wait, hart way(hard coding). coming from Java not Selenium
+        //  CommonMethods.wait(2);
+
         TakesScreenshot takeScreenshot = (TakesScreenshot) driver;   // telling driver to allow screenshots
         File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);   // actual value from the website
+
         try {
-            FileUtils.copyFile(sourceFile,new File("screenshots/dashboard4.jpeg"));// changing png to jpeg, make sure you rename dashboars2.. or it will override previous screen
+            FileUtils.copyFile(sourceFile, new File("screenshots/dashboard5.jpeg"));// changing png to jpeg, make sure you rename dashboars2.. or it will override previous screen
         } catch (IOException e) {
-           e.printStackTrace();
+            e.printStackTrace();
             System.out.println("Screenshot is not taken");
         }
 
