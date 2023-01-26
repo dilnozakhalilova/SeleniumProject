@@ -48,13 +48,22 @@ public class CommonMethods {
         element.clear();
         element.sendKeys(value);
     }
-    public static void sendText3(WebElement element, String value) {
-        element.clear();
-        element.sendKeys(value);
-    }
 
     public static void click(WebElement element) {
         element.click();
+    }
+
+    /**
+     * Method will wait for an element to load for a duration of time provided. This is a Static wait, please use with caution.
+     *
+     * @param second int
+     */
+    public static void waitInSeconds(int second) {
+        try {
+            Thread.sleep(second * 1000L);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static WebDriverWait waitForElement() {
@@ -77,7 +86,7 @@ public class CommonMethods {
 
     }
 
-    public static void waitForVisibility(By by) {
+    public static void waitForVisibilityOfElement(By by) {
         waitForElement().until(ExpectedConditions.visibilityOfElementLocated(by));
 
     }
@@ -85,6 +94,10 @@ public class CommonMethods {
     public static void clickButWaitForVisibility(WebElement element) {
         waitForVisibility(element);
         element.click();
+    }
+
+    public static void waitForPresenceOfElement(By by){
+        waitForElement().until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
     /**
@@ -230,18 +243,7 @@ public class CommonMethods {
         return alertText;
     }
 
-    /**
-     * Method will wait for an element to load for a duration of time provided. This is a Static wait, please use with caution.
-     *
-     * @param second int
-     */
-    public static void waitInSeconds(int second) {
-        try {
-            Thread.sleep(second * 1000L);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 //    public static void selectDropDown(WebElement element, String expected) {
 //        Select select = new Select(element);
 //        for (int i = 0; i < select.getOptions().size(); i++) {
