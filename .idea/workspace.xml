@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class18_Calendars/_03_ExpediaBO_Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_01_ScreenshotDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class18_Calendars/_02_ExpediaCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class18_Calendars/_02_ExpediaCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dilnoza/Desktop/Programming/Jars &amp; drivers/poi/auxiliary/xmlsec-3.0.0.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Dilnoza/Desktop/Programming/Jars & drivers/commons-io-2.11.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Class9" />
@@ -97,7 +96,20 @@
       <recent name="Class13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._04_Task1Hw">
+  <component name="RunManager" selected="Application._01_ScreenshotDemo">
+    <configuration name="_01_ScreenshotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._01_ScreenshotDemo" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_01_SimpleCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class18_Calendars._01_SimpleCalendar" />
       <module name="SeleniumProject" />
@@ -150,26 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_05_HwTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class17_WebTables._05_HwTask" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class17_WebTables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._01_ScreenshotDemo" />
         <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._03_ExpediaBO_Case" />
         <item itemvalue="Application._02_ExpediaCalendar" />
         <item itemvalue="Application._01_SimpleCalendar" />
-        <item itemvalue="Application._05_HwTask" />
       </list>
     </recent_temporary>
   </component>
