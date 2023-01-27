@@ -50,6 +50,7 @@ public class _02_ExpediaCalendar {   // remove/Flights from the URL
             }
         }
 
+
         CommonMethods.wait(1);
 
         while (!monthAndYear.equals(returnMonthAndYear)) { //

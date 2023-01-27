@@ -30,12 +30,16 @@ public class _04_Task1Hw {
 
         while (!monthAndYear.equals(departureMonthYear)) {
             driver.findElement(By.xpath("(//span[@class='monthSelector'])[2]")).click();
-            monthAndYear = driver.findElement(By.xpath("//span[@class='dl-datepicker-year dl-datepicker-year-0']"));
             CommonMethods.wait(1);
+            monthAndYear = driver.findElement(By.xpath("//span[@class='dl-datepicker-year dl-datepicker-year-0']"));
             break;
         }
 
-
+        WebElement days = driver.findElement(By.xpath("(//table[@class='dl-datepicker-calendar'])[1]"));
+//
+//    for(WebElement day : days){
+//
+//    }
 
         tearDown();
     }
