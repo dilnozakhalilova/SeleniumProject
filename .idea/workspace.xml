@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <recent name="Class14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._04_ActionsClassDemo">
+  <component name="RunManager" selected="Application._04_Task1Hw">
     <configuration name="_01_ScreenshotSelenium3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._01_ScreenshotSelenium3" />
       <module name="SeleniumProject" />
@@ -162,10 +163,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._04_ActionsClassDemo" />
         <item itemvalue="Application._02_ScreenshotSelenium4" />
         <item itemvalue="Application._03_ScreenshotSelenium4FireFoxWebdriver" />
-        <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._01_ScreenshotSelenium3" />
       </list>
     </recent_temporary>

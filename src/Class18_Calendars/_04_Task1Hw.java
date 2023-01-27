@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utils.CommonMethods;
 
+import java.util.List;
+
 import static utils.BaseClass.*;
 
 /**
@@ -35,11 +37,13 @@ public class _04_Task1Hw {
             break;
         }
 
-        WebElement days = driver.findElement(By.xpath("(//table[@class='dl-datepicker-calendar'])[1]"));
-//
-//    for(WebElement day : days){
-//
-//    }
+        List<WebElement> days = driver.findElements(By.xpath("(//table[@class='dl-datepicker-calendar'])[1]//tr/td/a"));
+
+    for(WebElement day : days){
+        if(day.getAttribute("data-date").equals(departureDate));
+        System.out.printf("Departing Day : " + monthAndYear +" " + day.getAttribute("data-date"));
+        break;
+    }
 
         tearDown();
     }
