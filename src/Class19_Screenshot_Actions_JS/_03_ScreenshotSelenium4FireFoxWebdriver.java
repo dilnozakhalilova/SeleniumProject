@@ -3,7 +3,7 @@ package Class19_Screenshot_Actions_JS;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import utils.ConfigsReader;
 
@@ -25,7 +25,7 @@ import static utils.BaseClass.*;
  *
  */
 
-public class _02_ScreenshotSelenium4FireFoxWebdriver {
+public class _03_ScreenshotSelenium4FireFoxWebdriver {
     public static void main(String[] args) {
         setUp("https://exelentersdet.com/");
 
@@ -37,9 +37,14 @@ public class _02_ScreenshotSelenium4FireFoxWebdriver {
 
 // 2. getFullPageScreenshotAs(); for this one switch to firefo  from the properties file
 
-
-
-
+     waitForVisibilityOfElement(By.cssSelector("table[class='table hover'] td"));
+        File sourceFile = ((FirefoxDriver) driver).getFullPageScreenshotAs(OutputType.FILE);
+        try {
+            FileHandler.copy(sourceFile,new File("screenshots/dashboardFirefox1.jpeg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Screenshot is not taken");
+        }
 
 
         tearDown();

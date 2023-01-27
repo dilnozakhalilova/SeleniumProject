@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_04_ActionsClassDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class18_Calendars/_02_ExpediaCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class18_Calendars/_02_ExpediaCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_02_ScreenshotSelenium4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_02_ScreenshotSelenium4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_02_ScreenshotSelenium4FireFoxWebdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_03_ScreenshotSelenium4FireFoxWebdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,7 @@
       <recent name="Class14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._04_Task1Hw">
+  <component name="RunManager" selected="Application._04_ActionsClassDemo">
     <configuration name="_01_ScreenshotSelenium3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._01_ScreenshotSelenium3" />
       <module name="SeleniumProject" />
@@ -123,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_DynamicTable_0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class17_WebTables._03_DynamicTable_0" />
+    <configuration name="_03_ScreenshotSelenium4FireFoxWebdriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._03_ScreenshotSelenium4FireFoxWebdriver" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class17_WebTables.*" />
+          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_ExpediaBO_Case" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._03_ExpediaBO_Case" />
+    <configuration name="_04_ActionsClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._04_ActionsClassDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class18_Calendars.*" />
+          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._04_ActionsClassDemo" />
+        <item itemvalue="Application._02_ScreenshotSelenium4" />
+        <item itemvalue="Application._03_ScreenshotSelenium4FireFoxWebdriver" />
         <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._01_ScreenshotSelenium3" />
-        <item itemvalue="Application._02_ScreenshotSelenium4" />
-        <item itemvalue="Application._03_DynamicTable_0" />
-        <item itemvalue="Application._03_ExpediaBO_Case" />
       </list>
     </recent_temporary>
   </component>

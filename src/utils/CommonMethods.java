@@ -86,6 +86,10 @@ public class CommonMethods {
 
     }
 
+    /**
+     * Method will wait for the given element based on the visibility of element
+     * @param by Locator
+     */
     public static void waitForVisibilityOfElement(By by) {
         waitForElement().until(ExpectedConditions.visibilityOfElementLocated(by));
 
