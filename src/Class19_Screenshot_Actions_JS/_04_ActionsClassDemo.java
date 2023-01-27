@@ -48,9 +48,9 @@ public class _04_ActionsClassDemo extends BaseClass {
         actions.doubleClick(driver.findElement(By.id("doubleClickBtn"))).perform();
 
         String doubleClickMessage = driver.findElement(By.id("doubleClickMessage")).getText();
-        if (doubleClickMessage.contains("You have done a double click"))
-            System.out.println("You have a correct message");
-        else System.out.println("Message not found");
+        if (doubleClickMessage.contains("You have done a double click")){
+            System.out.println("You have a correct message");}
+        else {System.out.println("Message not found");}
 
 
         wait(1);
