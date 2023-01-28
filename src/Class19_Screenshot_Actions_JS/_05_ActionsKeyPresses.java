@@ -23,6 +23,9 @@ public class _05_ActionsKeyPresses extends BaseClass {
         inputField.sendKeys(Keys.SPACE);
         wait(1);
         inputField.sendKeys("B");
+        wait(1);
+        inputField.sendKeys(Keys.BACK_SPACE);
+        wait(1);
 
 
         tearDown();
