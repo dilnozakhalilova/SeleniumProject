@@ -8,6 +8,7 @@ import utils.BaseClass;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.security.Key;
 
 public class _05_ActionsKeyPresses extends BaseClass {
     public static void main(String[] args) {
@@ -26,8 +27,15 @@ public class _05_ActionsKeyPresses extends BaseClass {
         wait(1);
         inputField.sendKeys(Keys.BACK_SPACE);   // Similar to Backspace(Windows) on your keybpoard, will delete char before it
         wait(1);
-       // inputField.sendKeys();
-
+        inputField.sendKeys("C");
+        wait(1);
+        inputField.sendKeys(Keys.ARROW_LEFT);
+        wait(1);
+        inputField.sendKeys(Keys.SPACE, Keys.SPACE, Keys.SPACE);
+        wait(1);
+        inputField.sendKeys(Keys.ARROW_RIGHT,Keys.SPACE);
+        wait(1);
+        inputField.sendKeys(Keys.SHIFT+"abc");   // Combination pressing of Shift + letters. Capitalises all letters
         tearDown();
 
     }
