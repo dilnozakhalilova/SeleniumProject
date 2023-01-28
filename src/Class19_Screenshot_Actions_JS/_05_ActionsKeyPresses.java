@@ -24,9 +24,9 @@ public class _05_ActionsKeyPresses extends BaseClass {
         wait(1);
         inputField.sendKeys("B");
         wait(1);
-        inputField.sendKeys(Keys.BACK_SPACE);
+        inputField.sendKeys(Keys.BACK_SPACE);   // Similar to Backspace(Windows) on your keybpoard, will delete char before it
         wait(1);
-
+       // inputField.sendKeys();
 
         tearDown();
 
