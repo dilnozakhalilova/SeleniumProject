@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_07_ActionsDragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_07_ActionsDragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_08_JSEecuterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_08_JSEecuterDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,26 +95,13 @@
       <recent name="Class14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._07_ActionsDragAndDrop">
+  <component name="RunManager" selected="Application._08_JSEecuterDemo">
     <configuration name="_04_ActionsClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._04_ActionsClassDemo" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_04_Task1Hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._04_Task1Hw" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class18_Calendars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_08_JSEecuterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._08_JSEecuterDemo" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._08_JSEecuterDemo" />
         <item itemvalue="Application._07_ActionsDragAndDrop" />
         <item itemvalue="Application._06_ActionsKeysChord" />
         <item itemvalue="Application._05_ActionsKeyPresses" />
         <item itemvalue="Application._04_ActionsClassDemo" />
-        <item itemvalue="Application._04_Task1Hw" />
       </list>
     </recent_temporary>
   </component>
