@@ -32,7 +32,7 @@ public class _04_ActionsClassDemo extends BaseClass {
         WebElement electronicsMenu = driver.findElement(By.linkText("Electronics"));
         actions.moveToElement(electronicsMenu).perform();   // Hovers on 'Electronics' menu
         wait(1);
-        actions.contextClick(electronicsMenu).perform();    // Right-click on 'Electronics' menu
+        actions.contextClick(electronicsMenu).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();    // Right-click on 'Electronics' menu
         wait(1);
         // electronicsMenu.sendKeys(Keys.ESCAPE);                // Not working yet
         // actions.sendKeys(Keys.ESCAPE).build().perform();      // Not working yet
@@ -49,8 +49,19 @@ public class _04_ActionsClassDemo extends BaseClass {
 
         String doubleClickMessage = driver.findElement(By.id("doubleClickMessage")).getText();
         if (doubleClickMessage.contains("You have done a double click")){
-            System.out.println("You have a correct message");}
+            System.out.println("You have a correct message");
+        System.out.println(driver.findElement(By.id("doubleClickMessage")));}
         else {System.out.println("Message not found");}
+
+        // Here we are locating 'Double Click Me' button and using double click on it from the Actions Class.
+        actions.doubleClick(driver.findElement(By.id("doubleClickBtn"))).perform();
+        System.out.println(driver.findElement(By.id("doubleClickMessage")).getText());     // Locating and Printing message for Double Click Me.
+
+        // Click on the Right click Me button and print its text message to the console
+
+        actions.contextClick(driver.findElement(By.id("rightClickBtn"))).perform();     // right click on teh button
+        System.out.println(driver.findElement(By.id("rightClickMessage")).getText());   // print the message
+
 
 
         wait(1);
