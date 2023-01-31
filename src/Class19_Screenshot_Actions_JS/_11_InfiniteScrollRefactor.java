@@ -7,28 +7,14 @@ import utils.BaseClass;
 
 import java.util.List;
 
-public class _11_InfiniteScroll extends BaseClass {
+public class _11_InfiniteScrollRefactor extends BaseClass {
     public static void main(String[] args) {
         setUp("https://the-internet.herokuapp.com/");
 
         driver.findElement(By.linkText("Infinite Scroll")).click();
         wait(2);
 
-
-        List<WebElement> paragraphs = driver.findElements(By.className("jscroll-added"));
-        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-        String script = "window.scrollTo(0, document.body.scrollHeight)";
-
-        while (paragraphs.size() < 20) {
-            jsExecutor.executeScript(script);
-            paragraphs = driver.findElements(By.className("jscroll-added"));
-        }
-        System.out.println("Total Paragraphs: " + paragraphs.size());
-        wait(2);
-
-        // after scrolling down for number of paragraphs, we are scrolling back to the top of the page using below code.
-        jsExecutor.executeScript("window.scrollBy(0,-document.body.scrollHeight " +
-                "|| -document.documentElement.scrollHeight)", ""); // StackOverflow
+        scrollToParapraph(13);
 
         tearDown();
 
@@ -45,7 +31,7 @@ public class _11_InfiniteScroll extends BaseClass {
         System.out.println("Total Paragraphs: " + getNumberOfParagraph());
     }
 
-    public static int getNumberOfParagraph(){
+    public static int getNumberOfParagraph() {
         List<WebElement> paragraphs = driver.findElements(By.className("jscroll-added"));
         return paragraphs.size();
     }

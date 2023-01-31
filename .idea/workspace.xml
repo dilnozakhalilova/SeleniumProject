@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_11_InfiniteScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_11_InfiniteScroll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,20 +94,7 @@
       <recent name="Class14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._11_InfiniteScroll">
-    <configuration name="_07_ActionsDragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._07_ActionsDragAndDrop" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._11_InfiniteScrollRefactor">
     <configuration name="_08_JSEecuterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._08_JSEecuterDemo" />
       <module name="SeleniumProject" />
@@ -161,13 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_11_InfiniteScrollRefactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._11_InfiniteScrollRefactor" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._11_InfiniteScrollRefactor" />
         <item itemvalue="Application._11_InfiniteScroll" />
         <item itemvalue="Application._10_JSEecuterDemo3" />
         <item itemvalue="Application._09_JSEecuterDemo2" />
         <item itemvalue="Application._08_JSEecuterDemo" />
-        <item itemvalue="Application._07_ActionsDragAndDrop" />
       </list>
     </recent_temporary>
   </component>

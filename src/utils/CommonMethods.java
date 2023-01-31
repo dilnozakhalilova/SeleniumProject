@@ -1,6 +1,7 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 
 import org.openqa.selenium.WebElement;
@@ -246,6 +247,24 @@ public class CommonMethods {
 
         return alertText;
     }
+
+    public static void scrollToParapraph(int index) {
+        String script = "window.scrollTo(0, document.body.scrollHeight)";
+        var jsExecutor = (JavascriptExecutor) driver;
+
+        while (getNumberOfParagraph() < index) {
+            jsExecutor.executeScript(script);  // scroll down by one <p> paragraph
+
+        }
+        System.out.println("Total Paragraphs: " + getNumberOfParagraph());
+    }
+
+    public static int getNumberOfParagraph(){
+        List<WebElement> paragraphs = driver.findElements(By.className("jscroll-added"));
+        return paragraphs.size();
+    }
+
+
 
 
 //    public static void selectDropDown(WebElement element, String expected) {
