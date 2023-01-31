@@ -21,7 +21,7 @@ public class _10_JSEecuterDemo3 extends BaseClass {
         JavascriptExecutor jsExecuter = (JavascriptExecutor) driver;
         jsExecuter.executeScript("arguments[0].style.backgroundColor='red'", password);
 
-
+        wait(1);
 
 
         tearDown();
