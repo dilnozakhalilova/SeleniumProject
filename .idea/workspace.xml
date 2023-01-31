@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="" />
+    <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_11_InfiniteScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,20 +95,7 @@
       <recent name="Class14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._10_JSEecuterDemo3">
-    <configuration name="_06_ActionsKeysChord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._06_ActionsKeysChord" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._11_InfiniteScroll">
     <configuration name="_07_ActionsDragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._07_ActionsDragAndDrop" />
       <module name="SeleniumProject" />
@@ -158,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_11_InfiniteScroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._11_InfiniteScroll" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._11_InfiniteScroll" />
         <item itemvalue="Application._10_JSEecuterDemo3" />
         <item itemvalue="Application._09_JSEecuterDemo2" />
         <item itemvalue="Application._08_JSEecuterDemo" />
         <item itemvalue="Application._07_ActionsDragAndDrop" />
-        <item itemvalue="Application._06_ActionsKeysChord" />
       </list>
     </recent_temporary>
   </component>
