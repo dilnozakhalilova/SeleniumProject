@@ -10,14 +10,21 @@ public class _09_JSEecuterDemo2 extends BaseClass {
         setUp("https://the-internet.herokuapp.com/");
 
         driver.findElement(By.linkText("Large & Deep DOM")).click();
+        wait(2);
+        String script = "arguments[0].scrollIntoView(true);";
+        // 1. Way. This will take us directly to the table, scrolling based on the element location.
+        // WebElement table = driver.findElement(By.id("large-table"));
+        //((JavascriptExecutor) driver).executeScript(script, table);
 
-        WebElement table = driver.findElement(By.id("large-table"));
-        String script ="arguments[0].scrollIntoView(true);";
-        ((JavascriptExecutor)driver).executeScript(script,table);
+
+        // 2. Way. Scrolling based on exact coordinates where I want to move on the page
+        ((JavascriptExecutor) driver).executeScript( "window.scrollBy(250,2500)");     // Exact coordinates: hard coded
 
 
 
-        tearDown();
+
+
+       tearDown();
 
     }
 }
