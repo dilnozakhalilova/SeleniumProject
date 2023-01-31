@@ -24,6 +24,7 @@ public class _02_ExpediaCalendar {   // remove/Flights from the URL
 
         // Click on the 'Departing' button/field to pop the calendar
         driver.findElement(By.cssSelector("h1[class='uitk-heading uitk-heading-3']")).click(); // Click elsewhere for the alert to go away.
+        CommonMethods.wait(1);
         driver.findElement(By.id("d1-btn")).click();
 
         // From the opened calendar , find Month and Year and store in a String for later use
