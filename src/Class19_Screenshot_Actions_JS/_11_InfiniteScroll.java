@@ -17,13 +17,21 @@ public class _11_InfiniteScroll extends BaseClass {
 
         List<WebElement> paragraphs = driver.findElements(By.className("jscroll-added"));
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-        jsExecutor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        String script = "window.scrollTo(0, document.body.scrollHeight)";
+
+        while (paragraphs.size() < 20) {
+            jsExecutor.executeScript(script);
+            paragraphs = driver.findElements(By.className("jscroll-added"));
+        }
+        System.out.println("Total Paragraphs: " + paragraphs.size());
+        wait(2);
+
+        // after scrolling down for number of paragraphs, we are scrolling back to the top of the page using below code.
+        jsExecutor.executeScript("window.scrollBy(0,-document.body.scrollHeight " +
+                "|| -document.documentElement.scrollHeight)", ""); // StackOverflow
 
 
-
-
-
-       tearDown();
+        tearDown();
 
     }
 }
