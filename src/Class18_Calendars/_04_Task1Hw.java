@@ -34,16 +34,15 @@ public class _04_Task1Hw extends BaseClass {
         //List<WebElement> monthAndYear = driver.findElements(By.xpath("//span[@class='dl-datepicker-year dl-datepicker-year-0']"));
         String month = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [2] /span [1]")).getText();
         String year = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [2] /span [2]")).getText();
-        while (!month.equals(departureMonth) && year.equals(departureYear)) {
+        while (!month.equals(departureMonth)) {
             driver.findElement(By.xpath("(//span[@class='monthSelector'])[2]")).click(); //
-            wait(1);
             month = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [2] /span [1]")).getText();
-            year = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [2] /span [2]")).getText();
-            wait(1);
+            year = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [2] /span [2]")).getText();wait(1);
+
 
         }
 
-        List<WebElement> days = driver.findElements(By.xpath("//tbody[@class='dl-datepicker-tbody-0']//a"));
+        List<WebElement> days = driver.findElements(By.xpath("(//table[@class='dl-datepicker-calendar'])[1]//tbody//td/a"));
         for (WebElement day : days) {
             while (day.getText().equals(departureDate)) {
                 System.out.println("Departure: " + day.getText() + " of " + month + "," + year);  // Departure: 13 of April, 2023
@@ -53,15 +52,18 @@ public class _04_Task1Hw extends BaseClass {
 
         }
         System.out.println("=========================Arrival=============================");
-        while (!month.equals(returnMonth) && year.equals(returnYear)) {
+
+        month = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [1] /span [1]")).getText();
+        year = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [1] /span [2]")).getText();
+        while (!month.equals(returnMonth) ) {
             driver.findElement(By.xpath("(//span[@class='monthSelector'])[2]")).click(); //
-            wait(1);
             month = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [2] /span [1]")).getText();
             year = driver.findElement(By.xpath("(//div[@class='dl-datepicker-title']) [2] /span [2]")).getText();
-            wait(1);
+
+
 
         }
-        days = driver.findElements(By.xpath("//tbody[@class='dl-datepicker-tbody-0']//a"));
+        days = driver.findElements(By.xpath("(//table[@class='dl-datepicker-calendar'])[1]//tbody//td/a"));
         for (WebElement day : days) {
             while (day.getText().equals(returnDate)) {
                 System.out.println("Arrival: " + day.getText() + " of " + month + "," + year);  // Return: 15 of August 2023

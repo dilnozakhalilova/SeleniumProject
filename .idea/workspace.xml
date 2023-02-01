@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class20_POM/pages/_02_LoginPageWithPageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class20_POM/test/_02_Logotest_Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class20_POM/pages/_01_LoginPageWithoutPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class20_POM/pages/_01_LoginPageWithoutPageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class20_POM/test/_01_LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class20_POM/test/_01_LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <recent name="Class15" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._01_LoginTest">
+  <component name="RunManager" selected="Application._04_Task1Hw">
     <configuration name="_01_LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class20_POM.test._01_LoginTest" />
       <module name="SeleniumProject" />
@@ -165,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._01_LoginTest" />
         <item itemvalue="Application._02_Logotest_Task" />
         <item itemvalue="Application._05_HW_Task2" />
-        <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._02_ExpediaCalendar" />
       </list>
     </recent_temporary>
