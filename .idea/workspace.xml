@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class18_Calendars/_05_HW_Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class18_Calendars/_02_ExpediaCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class18_Calendars/_02_ExpediaCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class18_Calendars/_04_Task1Hw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,6 @@
   <component name="ProjectId" id="2HI2ShY1OObWv62o0KnW9eB7IFl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
