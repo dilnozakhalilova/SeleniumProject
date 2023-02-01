@@ -9,10 +9,15 @@ import static utils.BaseClass.*;
 public class _01_LoginPageWithoutPageFactory {
 
 
+    // Log in page without using page Factoring
+
     public WebElement username = driver.findElement(By.id("txtUsername"));
     public WebElement password = driver.findElement(By.id("txtPassword"));
 
     public WebElement loginBtn = driver.findElement(By.id("btnLogin"));
+    public WebElement logo = driver.findElement(By.cssSelector("#divLogo img"));
+
+
 
 
 

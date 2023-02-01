@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class20_POM/pages/_02_LoginPageWithPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class20_POM/test/_02_Logotest_Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class20_POM/pages/_01_LoginPageWithoutPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class20_POM/pages/_01_LoginPageWithoutPageFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Class20_POM/test/_01_LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class20_POM/test/_01_LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +90,11 @@
       <recent name="C:\Users\dilno\JavaCourse\JavaProjects\SeleniumProject\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class20_POM.pages" />
       <recent name="Class19_Screenshot_Actions_JS" />
       <recent name="Class17_WebTables" />
       <recent name="Class16_DevelopFunctions" />
       <recent name="Class15" />
-      <recent name="Class14" />
     </key>
   </component>
   <component name="RunManager" selected="Application._01_LoginTest">
@@ -113,6 +117,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Class18_Calendars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02_Logotest_Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class20_POM.test._02_Logotest_Task" />
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class20_POM.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,26 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_InfiniteScrollRefactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._11_InfiniteScrollRefactor" />
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class19_Screenshot_Actions_JS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application._01_LoginTest" />
+        <item itemvalue="Application._02_Logotest_Task" />
         <item itemvalue="Application._05_HW_Task2" />
         <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._02_ExpediaCalendar" />
-        <item itemvalue="Application._11_InfiniteScrollRefactor" />
       </list>
     </recent_temporary>
   </component>
