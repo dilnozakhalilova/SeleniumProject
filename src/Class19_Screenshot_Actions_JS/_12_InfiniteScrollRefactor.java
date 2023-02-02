@@ -7,7 +7,7 @@ import utils.BaseClass;
 
 import java.util.List;
 
-public class _11_InfiniteScrollRefactor extends BaseClass {
+public class _12_InfiniteScrollRefactor extends BaseClass {
     public static void main(String[] args) {
         setUp("https://the-internet.herokuapp.com/");
 
