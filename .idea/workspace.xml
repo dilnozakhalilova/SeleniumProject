@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_13_HW_ActionClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_11_InfiniteScrollRefactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_12_InfiniteScrollRefactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +65,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Dilnoza/Desktop/Programming/Jars & drivers/selenium-firefox-driver-4.8.0.jar",
+    "last_opened_file_path": "C:/Users/Dilnoza/Desktop/Programming/Jars & drivers/testng-7.7.1.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -95,7 +94,7 @@
       <recent name="Class15" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._06_HW_Task2R">
+  <component name="RunManager" selected="Application._13_HW_ActionClass">
     <configuration name="_01_LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class20_POM.test._01_LoginTest" />
       <module name="SeleniumProject" />
@@ -109,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_Logotest_Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class20_POM.test._02_Logotest_Task" />
+    <configuration name="_04_Task1Hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._04_Task1Hw" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class20_POM.test.*" />
+          <option name="PATTERN" value="Class18_Calendars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04_Task1Hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._04_Task1Hw" />
+    <configuration name="_05_HW_Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._05_HW_Task2" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._06_HW_Task2R" />
         <item itemvalue="Application._13_HW_ActionClass" />
+        <item itemvalue="Application._05_HW_Task2" />
+        <item itemvalue="Application._06_HW_Task2R" />
         <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._01_LoginTest" />
-        <item itemvalue="Application._02_Logotest_Task" />
       </list>
     </recent_temporary>
   </component>

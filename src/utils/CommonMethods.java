@@ -1,14 +1,14 @@
 package utils;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoAlertPresentException;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Set;
@@ -89,6 +89,7 @@ public class CommonMethods {
 
     /**
      * Method will wait for the given element based on the visibility of element
+     *
      * @param by Locator
      */
     public static void waitForVisibilityOfElement(By by) {
@@ -101,7 +102,7 @@ public class CommonMethods {
         element.click();
     }
 
-    public static void waitForPresenceOfElement(By by){
+    public static void waitForPresenceOfElement(By by) {
         waitForElement().until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
@@ -198,9 +199,9 @@ public class CommonMethods {
     }
 
     public static void acceptAlert() {
-        try{
+        try {
             driver.switchTo().alert().accept();
-        }catch (NoAlertPresentException e){
+        } catch (NoAlertPresentException e) {
             e.printStackTrace();
             System.out.println("Alert is not present");
         }
@@ -208,18 +209,19 @@ public class CommonMethods {
     }
 
     public static void dismissAlert() {
-        try{
+        try {
             driver.switchTo().alert().dismiss();
-        }catch (NoAlertPresentException e){
+        } catch (NoAlertPresentException e) {
             e.printStackTrace();
             System.out.println("Alert is not present");
         }
 
     }
+
     public static void dismissAlert2() {
-        try{
+        try {
             driver.switchTo().alert().dismiss();
-        }catch (NoAlertPresentException e){
+        } catch (NoAlertPresentException e) {
             e.printStackTrace();
             System.out.println("Alert is not present");
         }
@@ -227,9 +229,9 @@ public class CommonMethods {
     }
 
     public static void sendAlertText(String text) {
-        try{
+        try {
             driver.switchTo().alert().sendKeys(text);
-        }catch (NoAlertPresentException e){
+        } catch (NoAlertPresentException e) {
             e.printStackTrace();
             System.out.println("Alert is not present");
         }
@@ -259,22 +261,57 @@ public class CommonMethods {
         System.out.println("Total Paragraphs: " + getNumberOfParagraph());
     }
 
-    public static int getNumberOfParagraph(){
+    public static int getNumberOfParagraph() {
         List<WebElement> paragraphs = driver.findElements(By.className("jscroll-added"));
         return paragraphs.size();
     }
 
 
+    // more methods related to JS
 
+    public static  JavascriptExecutor jsExecuter(){
+        return   (JavascriptExecutor) driver;
 
-//    public static void selectDropDown(WebElement element, String expected) {
-//        Select select = new Select(element);
-//        for (int i = 0; i < select.getOptions().size(); i++) {
-//            if (select.getOptions().get(i).getText().equalsIgnoreCase(expected)){
-//                select.getOptions().get(i).click();
-//                break;
-//            }
-//        }
-//    }
+    }
+    /**
+     * Method performs simple click based on Java script. Use this when regular Selenium click fails
+     *
+     * @param element WebElement that needs to be clicked on.
+     */
+    public static void jsClick(WebElement element) {
+        jsExecuter().executeScript("arguments[0].click();", element);
+    }
+
+    /**
+     * Method will scroll to the given element.
+     *
+     * @param element WebElement to be scrolled to
+     */
+    public static void scrollToElement(WebElement element) {
+        jsExecuter().executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    /**
+     * Method will scroll both vertically (left and right) and horizontaly ( up & Down) based on given pixels.
+     * @param horizontalPixel int
+     * @param verticatPixel int
+     */
+
+    public static void scrollToElement(int horizontalPixel, int verticatPixel) {
+        jsExecuter().executeScript("window.scrollBy(" + horizontalPixel + "," + verticatPixel + ")");
+    }
+
+    public static void takeScreenshot(String fileName) {
+        TakesScreenshot takeScreenshot = (TakesScreenshot) driver;   // telling driver to allow screenshots
+        File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);   // actual value from the website
+
+        try {
+            FileUtils.copyFile(sourceFile, new File("screenshots/"+fileName+".png"));// changing png to jpeg, make sure you rename dashboars2.. or it will override previous screen
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Screenshot is not taken");
+        }
+    }
+
 
 }
