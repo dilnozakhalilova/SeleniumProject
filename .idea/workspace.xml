@@ -95,7 +95,7 @@
       <recent name="Class15" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._13_HW_ActionClass">
+  <component name="RunManager" selected="Application._06_HW_Task2R">
     <configuration name="_01_LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class20_POM.test._01_LoginTest" />
       <module name="SeleniumProject" />
@@ -135,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_05_HW_Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._05_HW_Task2" />
+    <configuration name="_06_HW_Task2R" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class18_Calendars._06_HW_Task2R" />
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._06_HW_Task2R" />
         <item itemvalue="Application._13_HW_ActionClass" />
         <item itemvalue="Application._04_Task1Hw" />
         <item itemvalue="Application._01_LoginTest" />
         <item itemvalue="Application._02_Logotest_Task" />
-        <item itemvalue="Application._05_HW_Task2" />
       </list>
     </recent_temporary>
   </component>
