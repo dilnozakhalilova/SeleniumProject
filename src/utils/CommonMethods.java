@@ -301,6 +301,7 @@ public class CommonMethods {
         jsExecuter().executeScript("window.scrollBy(" + horizontalPixel + "," + verticatPixel + ")");
     }
 
+
     public static void takeScreenshot(String fileName) {
         TakesScreenshot takeScreenshot = (TakesScreenshot) driver;   // telling driver to allow screenshots
         File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);   // actual value from the website
