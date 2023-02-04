@@ -271,7 +271,6 @@ public class CommonMethods {
 
     public static  JavascriptExecutor jsExecuter(){
         return   (JavascriptExecutor) driver;
-
     }
     /**
      * Method performs simple click based on Java script. Use this when regular Selenium click fails
