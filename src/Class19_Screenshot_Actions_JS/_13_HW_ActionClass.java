@@ -3,6 +3,7 @@ package Class19_Screenshot_Actions_JS;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.interactions.Actions;
 import utils.BaseClass;
 
@@ -32,7 +33,7 @@ public class _13_HW_ActionClass extends BaseClass {
         action.moveToElement(coursesTab).perform();
         List<WebElement> dropdownList = driver.findElements(By.xpath("//li[@id='menu-item-8674'] //a"));
         for(WebElement dropdownItem : dropdownList){
-            if(dropdownItem.equals(driver.findElement(By.linkText("Java-sdet")))){
+            if(dropdownItem.equals(driver.findElement(By.xpath("//li[@id='menu-item-9053']//span")))){
                 dropdownItem.click();
                 break;
             }
@@ -41,7 +42,7 @@ public class _13_HW_ActionClass extends BaseClass {
         wait(2);
         String sdetText = driver.findElement(By.xpath("//div[@class='ct-title1 style4']/h3/span")).getText();
 
-        driver.navigate().to("Google.com");
+        driver.switchTo().newWindow(WindowType.TAB);
         wait(1);
 
         tearDown();

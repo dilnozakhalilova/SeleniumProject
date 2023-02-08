@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9161a2-76d7-4f15-aa7e-227c94e70093" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_13_HW_ActionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class19_Screenshot_Actions_JS/_13_HW_ActionClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <recent name="Class15" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._01_ScreenshotSelenium3">
+  <component name="RunManager" selected="Application._13_HW_ActionClass">
     <configuration name="_01_ScreenshotSelenium3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class19_Screenshot_Actions_JS._01_ScreenshotSelenium3" />
       <module name="SeleniumProject" />
@@ -161,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._01_ScreenshotSelenium3" />
         <item itemvalue="Application._13_HW_ActionClass" />
+        <item itemvalue="Application._01_ScreenshotSelenium3" />
         <item itemvalue="Application._05_HW_Task2" />
         <item itemvalue="Application._06_HW_Task2R" />
         <item itemvalue="Application._04_Task1Hw" />
