@@ -39,11 +39,13 @@ public class _13_HW_ActionClass extends BaseClass {
             }
         }
         System.out.println("selected 'Java-sdet' and clicked on it");
+        WebElement sdetElementText = driver.findElement(By.xpath("//div[@class='ct-title1 style4']//span"));
+        System.out.println(sdetElementText.getText());
         wait(2);
-        String sdetText = driver.findElement(By.xpath("//div[@class='ct-title1 style4']/h3/span")).getText();
 
-        driver.switchTo().newWindow(WindowType.TAB);
+        driver.switchTo().newWindow(WindowType.TAB).navigate().to("google.com");
         wait(1);
+
 
         tearDown();
 
